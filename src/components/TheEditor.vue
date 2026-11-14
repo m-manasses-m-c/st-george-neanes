@@ -4,6 +4,7 @@ import 'vue3-tabs-chrome/dist/vue3-tabs-chrome.css';
 import {
   PhArrowLineLeft,
   PhArrowLineRight,
+  PhFilePdf,
   PhX,
   PhXCircle,
 } from '@phosphor-icons/vue';
@@ -109,6 +110,7 @@ import type {
   ExportWorkspaceAsImageReplyArgs,
   ExportWorkspaceReplyArgs,
   FileMenuImportOcrArgs,
+  FileMenuImportPdfArgs,
   FileMenuInsertTextboxArgs,
   FileMenuOpenImageArgs,
   FileMenuOpenScoreArgs,
@@ -388,6 +390,7 @@ const {
   musicXmlExporter,
   neumeKeyboard,
   ocrImporter,
+  pdfImporter,
   platformService,
   playbackService,
   textSearchService,
@@ -494,6 +497,8 @@ const editorPreferencesHydrated = ref(false);
 const isDevelopment = ref(import.meta.env.DEV);
 const isBrowser = ref(!isElectron());
 const isLoading = ref(true);
+const isDraggingPdf = ref(false);
+let pdfDragDepth = 0;
 // Whether an export or print job is rendering the pages.
 const printMode = ref(false);
 const browserPrintWarning = useTemplateRef<HTMLElement>('browserPrintWarning');
@@ -1811,6 +1816,10 @@ onMounted(() => {
   editorPreferencesHydrated.value = true;
 
   window.addEventListener('keydown', onKeydown);
+  window.addEventListener('dragenter', onWindowDragEnter);
+  window.addEventListener('dragover', onWindowDragOver);
+  window.addEventListener('dragleave', onWindowDragLeave);
+  window.addEventListener('drop', onWindowDrop);
   window.addEventListener('keyup', onKeyup);
   window.addEventListener('resize', throttled.onEditorViewportResize);
 
@@ -1845,6 +1854,7 @@ onMounted(() => {
     onFileMenuDocumentProperties,
   );
   EventBus.$on(IpcMainChannels.FileMenuImportOcr, onFileMenuImportOcr);
+  EventBus.$on(IpcMainChannels.FileMenuImportPdf, onFileMenuImportPdf);
   EventBus.$on(IpcMainChannels.FileMenuExportAsPdf, onFileMenuExportAsPdf);
   EventBus.$on(IpcMainChannels.FileMenuExportAsHtml, onFileMenuExportAsHtml);
   EventBus.$on(
@@ -1943,6 +1953,10 @@ onBeforeUnmount(() => {
   recoverySnapshotTimers.clear();
 
   window.removeEventListener('keydown', onKeydown);
+  window.removeEventListener('dragenter', onWindowDragEnter);
+  window.removeEventListener('dragover', onWindowDragOver);
+  window.removeEventListener('dragleave', onWindowDragLeave);
+  window.removeEventListener('drop', onWindowDrop);
   window.removeEventListener('keyup', onKeyup);
   window.removeEventListener('resize', throttled.onEditorViewportResize);
   clearZoomWheelDeltaReset();
@@ -1973,6 +1987,7 @@ onBeforeUnmount(() => {
   );
   EventBus.$off(IpcMainChannels.FileMenuExportAsLatex, onFileMenuExportAsLatex);
   EventBus.$off(IpcMainChannels.FileMenuExportAsImage, onFileMenuExportAsImage);
+  EventBus.$off(IpcMainChannels.FileMenuImportPdf, onFileMenuImportPdf);
   EventBus.$off(IpcMainChannels.FileMenuUndo, onFileMenuUndo);
   EventBus.$off(IpcMainChannels.FileMenuRedo, onFileMenuRedo);
   EventBus.$off(IpcMainChannels.FileMenuCut, onFileMenuCut);
@@ -8365,6 +8380,128 @@ function onFileMenuImportOcr(args: FileMenuImportOcrArgs) {
   }
 }
 
+async function onFileMenuImportPdf(args: FileMenuImportPdfArgs) {
+  if (!dialogOpen.value && args.success) {
+    await importPdf(args.data, args.filePath);
+  }
+}
+
+async function importPdf(data: Uint8Array, filePath: string) {
+  const toastId = toast.loading(
+    t(($) => $.toast.editor.pdfImporting, { ns: 'toast' }),
+  );
+
+  try {
+    const result = await pdfImporter.import(data);
+
+    if (result.noteCount === 0) {
+      toast.error(
+        t(($) => $.toast.editor.pdfImportFailed, { ns: 'toast' }),
+        {
+          id: toastId,
+          description: t(($) => $.toast.editor.pdfImportNoNotation, {
+            ns: 'toast',
+          }),
+        },
+      );
+      return;
+    }
+
+    const workspace = new Workspace();
+    workspace.tempFileName =
+      getFileNameFromPath(filePath).replace(/\.pdf$/i, '') || getTempFilename();
+    workspace.score = new Score();
+    workspace.score.staff.elements.unshift(...result.elements);
+    workspace.hasUnsavedChanges = true;
+
+    addAndSelectWorkspace(workspace);
+
+    currentFilePath.value = null;
+
+    if (result.unknownGlyphs.length > 0) {
+      console.warn('PDF import: unrecognized symbols', result.unknownGlyphs);
+      toast.warning(
+        t(($) => $.toast.editor.pdfImportUnknownSymbols, {
+          ns: 'toast',
+          count: result.unknownGlyphs.length,
+        }),
+        { id: toastId, description: result.unknownGlyphs.join(', ') },
+      );
+    } else {
+      toast.success(
+        t(($) => $.toast.editor.pdfImportSuccess, { ns: 'toast' }),
+        { id: toastId },
+      );
+    }
+  } catch (error) {
+    console.error(error);
+
+    showErrorToast(
+      t(($) => $.toast.editor.pdfImportFailed, { ns: 'toast' }),
+      error,
+      {
+        id: toastId,
+        fallback: t(($) => $.toast.editor.unexpectedError, { ns: 'toast' }),
+      },
+    );
+  }
+}
+
+function isPdfFile(file: File) {
+  return file.type === 'application/pdf' || /\.pdf$/i.test(file.name);
+}
+
+/**
+ * While dragging, browsers expose only the MIME type of each file. Treat a
+ * file with an unknown type as a possible PDF; the name is checked on drop.
+ */
+function isDraggingPossiblePdf(event: DragEvent) {
+  return Array.from(event.dataTransfer?.items ?? []).some(
+    (item) =>
+      item.kind === 'file' &&
+      (item.type === 'application/pdf' || item.type === ''),
+  );
+}
+
+function onWindowDragEnter(event: DragEvent) {
+  if (isDraggingPossiblePdf(event) && !dialogOpen.value) {
+    pdfDragDepth++;
+    isDraggingPdf.value = true;
+  }
+}
+
+function onWindowDragOver(event: DragEvent) {
+  if (isDraggingPossiblePdf(event) && !dialogOpen.value) {
+    // Allow the drop (and stop the browser from opening the file itself)
+    event.preventDefault();
+    event.dataTransfer!.dropEffect = 'copy';
+  }
+}
+
+function onWindowDragLeave(event: DragEvent) {
+  if (isDraggingPossiblePdf(event)) {
+    pdfDragDepth = Math.max(0, pdfDragDepth - 1);
+    isDraggingPdf.value = pdfDragDepth > 0;
+  }
+}
+
+async function onWindowDrop(event: DragEvent) {
+  pdfDragDepth = 0;
+  isDraggingPdf.value = false;
+
+  const pdfs = Array.from(event.dataTransfer?.files ?? []).filter(isPdfFile);
+
+  if (pdfs.length === 0 || dialogOpen.value) {
+    return;
+  }
+
+  event.preventDefault();
+
+  for (const file of pdfs) {
+    await importPdf(new Uint8Array(await file.arrayBuffer()), file.name);
+  }
+}
+
 function onFileMenuPageSetup() {
   pageSetupDialogIsOpen.value = true;
 }
@@ -10279,6 +10416,12 @@ function renderTabLabel(tab: Tab) {
     <div v-if="isLoading" class="loading-overlay">
       <Spinner class="size-16" />
     </div>
+    <div v-if="isDraggingPdf" class="pdf-drop-overlay">
+      <div class="pdf-drop-overlay-message">
+        <PhFilePdf class="size-12" />
+        {{ t(($) => $.dialog.importPdf.dropHint, { ns: 'dialog' }) }}
+      </div>
+    </div>
     <FileMenuBar
       v-if="showFileMenuBar"
       class="no-print"
@@ -11002,6 +11145,30 @@ function renderTabLabel(tab: Tab) {
 }
 </style>
 <style scoped>
+.pdf-drop-overlay {
+  position: fixed;
+  z-index: 60;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+.pdf-drop-overlay-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 2rem 3rem;
+  border: 3px dashed var(--color-primary, #2563eb);
+  border-radius: 1rem;
+  background-color: white;
+  color: #111;
+  font-size: 1.25rem;
+}
+
 .loading-overlay {
   position: absolute;
   z-index: 45;

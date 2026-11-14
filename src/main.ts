@@ -18,6 +18,7 @@ import {
   musicXmlExporterKey,
   neumeKeyboardKey,
   ocrImporterKey,
+  pdfImporterKey,
   platformServiceKey,
   playbackServiceKey,
   textSearchServiceKey,
@@ -30,6 +31,7 @@ import { PlaybackService } from './services/audio/PlaybackService';
 import { LatexExporter } from './services/integration/LatexExporter';
 import { MusicXmlExporter } from './services/integration/MusicXmlExporter';
 import { OcrImporter } from './services/integration/OcrImporter';
+import { PdfImporter } from './services/integration/pdf/PdfImporter';
 import { BrowserIpcService } from './services/ipc/BrowserIpcService';
 import { IpcService } from './services/ipc/IpcService';
 import { LyricService } from './services/LyricService';
@@ -88,6 +90,7 @@ app.provide(lyricServiceKey, new LyricService());
 app.provide(musicXmlExporterKey, new MusicXmlExporter());
 app.provide(neumeKeyboardKey, new NeumeKeyboard());
 app.provide(ocrImporterKey, new OcrImporter());
+app.provide(pdfImporterKey, new PdfImporter());
 app.provide(playbackServiceKey, new PlaybackService());
 app.provide(textSearchServiceKey, new TextSearchService());
 

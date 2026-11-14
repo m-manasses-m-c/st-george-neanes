@@ -51,6 +51,10 @@
                 <PhFileText />
                 {{ $t(($) => $.menu.file.importFromOcr, { ns: 'menu' }) }}
               </MenubarItem>
+              <MenubarItem @select="onClickImportPdf">
+                <PhFilePdf />
+                {{ $t(($) => $.menu.file.importFromPdf, { ns: 'menu' }) }}
+              </MenubarItem>
             </MenubarSubContent>
           </MenubarSub>
           <MenubarItem @select="onClickSave">
@@ -429,6 +433,13 @@
       :accept="acceptOcr"
       @change="onSelectOcrFile"
     />
+    <input
+      ref="pdffile"
+      class="hidden"
+      type="file"
+      accept=".pdf"
+      @change="onSelectPdfFile"
+    />
   </div>
 </template>
 
@@ -501,6 +512,7 @@ import { EventBus } from '@/eventBus';
 import type {
   CloseWorkspacesArgs,
   FileMenuImportOcrArgs,
+  FileMenuImportPdfArgs,
   FileMenuInsertTextboxArgs,
   FileMenuOpenImageArgs,
   FileMenuOpenScoreArgs,
@@ -536,6 +548,7 @@ const props = defineProps<{
 const fileSelector = useTemplateRef<HTMLInputElement>('file');
 const imageFileSelector = useTemplateRef<HTMLInputElement>('imagefile');
 const ocrFileSelector = useTemplateRef<HTMLInputElement>('ocrfile');
+const pdfFileSelector = useTemplateRef<HTMLInputElement>('pdffile');
 const recentFilesService = new BrowserRecentFilesService();
 const { t } = useTranslation();
 
@@ -721,6 +734,10 @@ function onClickImportOcr() {
   ocrFileSelector.value!.click();
 }
 
+function onClickImportPdf() {
+  pdfFileSelector.value!.click();
+}
+
 function onClickSave() {
   EventBus.$emit(IpcMainChannels.FileMenuSave);
 }
@@ -869,6 +886,21 @@ async function onSelectImageFile() {
 
     reader.readAsDataURL(file);
   }
+}
+
+async function onSelectPdfFile() {
+  const file = pdfFileSelector.value!.files![0];
+
+  if (file != null) {
+    EventBus.$emit(IpcMainChannels.FileMenuImportPdf, {
+      data: new Uint8Array(await file.arrayBuffer()),
+      filePath: file.name,
+      success: true,
+    } as FileMenuImportPdfArgs);
+  }
+
+  // Reset the selector so that selecting the same file again still loads it
+  pdfFileSelector.value!.value = '';
 }
 
 async function onSelectOcrFile() {

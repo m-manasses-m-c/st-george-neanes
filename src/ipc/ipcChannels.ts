@@ -24,6 +24,7 @@ export enum IpcMainChannels {
   FileMenuSave = 'FileMenuSave',
   FileMenuSaveAs = 'FileMenuSaveAs',
   FileMenuImportOcr = 'FileMenuImportOcr',
+  FileMenuImportPdf = 'FileMenuImportPdf',
   FileMenuExportAsPdf = 'FileMenuExportAsPdf',
   FileMenuExportAsHtml = 'FileMenuExportAsHtml',
   FileMenuExportAsMusicXml = 'FileMenuExportAsMusicXml',
@@ -186,6 +187,12 @@ export interface UpdateErrorArgs {
 
 export interface FileMenuImportOcrArgs {
   data: string;
+  filePath: string;
+  success: boolean;
+}
+
+export interface FileMenuImportPdfArgs {
+  data: Uint8Array;
   filePath: string;
   success: boolean;
 }

@@ -1,4 +1,20 @@
-# Neanes - A Byzantine Chant Scorewriter
+# St. George Neane's - A Byzantine Chant Scorewriter
+
+St. George Neane's is a modified version of [Neanes](https://github.com/neanes/neanes),
+the free and open source Byzantine chant scorewriter by
+[danielgarthur](https://github.com/danielgarthur) and the Neanes contributors.
+All credit for the original application goes to them. Like the original,
+this version is licensed under the [GNU GPL v3](LICENSE).
+
+Changes in this version:
+
+- Import PDF scores typeset with the EZ fonts (File > Import PDF, or drag and
+  drop a PDF onto the editor), with lyrics, martyria and the mode key.
+- Playback mixes the melody and the ison without clipping.
+
+The rest of this README is from the original project.
+
+---
 
 [![CI](https://github.com/neanes/neanes/actions/workflows/ci.yml/badge.svg)](https://github.com/neanes/neanes/actions/workflows/ci.yml)
 

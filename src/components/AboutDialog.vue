@@ -10,7 +10,7 @@
             aria-hidden="true"
           />
           <div class="min-w-0 space-y-1">
-            <DialogTitle class="text-2xl">Neanes</DialogTitle>
+            <DialogTitle class="text-2xl">{{ appTitle }}</DialogTitle>
             <DialogDescription>
               {{ $t(($) => $.dialog.about.description, { ns: 'dialog' }) }}
             </DialogDescription>
@@ -61,6 +61,14 @@
           <p class="text-sm leading-6 text-muted-foreground">
             {{ $t(($) => $.dialog.about.projectDescription, { ns: 'dialog' }) }}
           </p>
+          <p class="text-sm leading-6 text-muted-foreground">
+            {{
+              $t(($) => $.dialog.about.basedOn, {
+                ns: 'dialog',
+                author: 'danielgarthur',
+              })
+            }}
+          </p>
         </section>
 
         <div class="flex flex-wrap gap-2">
@@ -79,6 +87,15 @@
           >
             <PhCode />
             {{ $t(($) => $.dialog.about.sourceCode, { ns: 'dialog' }) }}
+          </Button>
+          <Button
+            v-if="repoUrl !== originalRepoUrl"
+            variant="outline"
+            type="button"
+            @click="openExternal(originalRepoUrl)"
+          >
+            <PhCode />
+            {{ $t(($) => $.dialog.about.originalProject, { ns: 'dialog' }) }}
           </Button>
           <Button
             variant="outline"
@@ -135,7 +152,9 @@ const appIconUrl = `${import.meta.env.BASE_URL}assets/icons/icon-512x512.png`;
 const isDesktop = isElectron();
 const guideUrl = import.meta.env.VITE_GUIDE_URL;
 const issuesUrl = import.meta.env.VITE_ISSUES_URL;
-const repoUrl = 'https://github.com/neanes/neanes';
+const appTitle = import.meta.env.VITE_TITLE;
+const repoUrl = import.meta.env.VITE_REPO_URL;
+const originalRepoUrl = 'https://github.com/neanes/neanes';
 
 function openExternal(url: string) {
   const externalWindow = window.open(url, '_blank', 'noopener,noreferrer');

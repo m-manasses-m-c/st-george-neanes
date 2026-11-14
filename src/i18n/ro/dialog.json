@@ -11,7 +11,7 @@
   },
   "recovery": {
     "root": "Recuperează lucrul nesalvat",
-    "description": "Partiturile de mai jos nu au fost salvate corect data trecută când a rulat Neanes și pot fi recuperate automat. După ce recuperați o partitură, salvați-o pentru a vă asigura că modificările au fost scrise pe disc.",
+    "description": "Partiturile de mai jos nu au fost salvate corect data trecută când a rulat St. George Neane's și pot fi recuperate automat. După ce recuperați o partitură, salvați-o pentru a vă asigura că modificările au fost scrise pe disc.",
     "recoverSelected": "Recuperează selectate",
     "discardSelected": "Renunță la selectate",
     "notNow": "Nu acum",
@@ -314,7 +314,7 @@
     "close": "Închide"
   },
   "about": {
-    "root": "Despre Neanes",
+    "root": "Despre St. George Neane's",
     "description": "Un editor de partituri de cânt bizantin",
     "version": "Versiune",
     "platform": "Platformă",
@@ -322,7 +322,9 @@
     "web": "Web",
     "license": "Licență",
     "project": "Proiect",
-    "projectDescription": "Neanes este software open source pentru crearea, editarea și exportul partiturilor de cânt bizantin.",
+    "projectDescription": "St. George Neane's este software open source pentru crearea, editarea și exportul partiturilor de cânt bizantin.",
+    "basedOn": "Bazat pe Neanes de {{author}} și contribuitorii Neanes, sub licența GPL-3.0.",
+    "originalProject": "Neanes original",
     "sourceCode": "Cod sursă",
     "guide": "Ghid",
     "requestFeature": "Solicită o funcție",
@@ -334,7 +336,7 @@
     "description": "Configurează limba, modul de culoare, interacțiunea meniului și tempourile implicite.",
     "language": "Limbă",
     "languageSystemDefault": "Implicit (sistem)",
-    "helpTranslate": "Ajută la traducerea Neanes",
+    "helpTranslate": "Ajută la traducerea St. George Neane's",
     "colorMode": "Mod culoare",
     "colorModeLight": "Luminos",
     "colorModeDark": "Întunecat",
@@ -355,7 +357,7 @@
   },
   "mcpSetup": {
     "title": "Conectare la instrumente AI…",
-    "description": "Folosiți un instrument AI compatibil cu MCP pentru a lucra cu partituri Neanes.",
+    "description": "Folosiți un instrument AI compatibil cu MCP pentru a lucra cu partituri St. George Neane's.",
     "client": "Client",
     "otherClient": "Alt client MCP",
     "format": "Format",
@@ -370,8 +372,8 @@
     "copyJson": "Copiază JSON",
     "copied": "Copiat",
     "copyFailed": "Copierea a eșuat. Selectați și copiați textul de mai sus.",
-    "loadFailed": "Nu s-a putut determina calea executabilului Neanes. Închideți dialogul și încercați din nou.",
-    "reconnect": "Reconectați instrumentul AI după configurare. Dacă mutați Neanes sau redenumiți fișierul AppImage, actualizați calea executabilului în configurația clientului.",
+    "loadFailed": "Nu s-a putut determina calea executabilului St. George Neane's. Închideți dialogul și încercați din nou.",
+    "reconnect": "Reconectați instrumentul AI după configurare. Dacă mutați St. George Neane's sau redenumiți fișierul AppImage, actualizați calea executabilului în configurația clientului.",
     "accessTitle": "Ce poate accesa?",
     "accessDescription": "Instrumentele conectate pot citi, edita, salva și exporta partituri folosind permisiunile de fișiere ale sistemului de operare. Implicit, lucrează cu documente private separate și pot citi și edita filele deschise când vizează explicit editorul. Ciornele private sunt eliminate la încheierea conexiunii dacă nu sunt salvate.",
     "documentation": "Documentație"
@@ -389,5 +391,10 @@
     "reference": "Referință",
     "body": "Eticheta notei de subsol",
     "invalid": "Introduceți 1–16 caractere fără întreruperi de rând."
+  },
+  "importPdf": {
+    "title": "Importă partitură PDF",
+    "failed": "Deschiderea fișierului PDF a eșuat",
+    "dropHint": "Plasați aici o partitură PDF pentru a o importa"
   }
 }

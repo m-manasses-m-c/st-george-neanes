@@ -11,7 +11,7 @@
   },
   "recovery": {
     "root": "Pulihkan kerja yang belum disimpan",
-    "description": "Partitur berikut tidak tersimpan dengan benar terakhir kali Neanes dijalankan dan dapat dipulihkan secara otomatis. Setelah memulihkan partitur, simpanlah untuk memastikan perubahan Anda ditulis ke disk.",
+    "description": "Partitur berikut tidak tersimpan dengan benar terakhir kali St. George Neane's dijalankan dan dapat dipulihkan secara otomatis. Setelah memulihkan partitur, simpanlah untuk memastikan perubahan Anda ditulis ke disk.",
     "recoverSelected": "Pulihkan yang Dipilih",
     "discardSelected": "Buang yang Dipilih",
     "notNow": "Tidak sekarang",
@@ -314,7 +314,7 @@
     "close": "Tutup"
   },
   "about": {
-    "root": "Tentang Neanes",
+    "root": "Tentang St. George Neane's",
     "description": "Penulis partitur nyanyian Bizantium",
     "version": "Versi",
     "platform": "Platform",
@@ -322,7 +322,9 @@
     "web": "Web",
     "license": "Lisensi",
     "project": "Proyek",
-    "projectDescription": "Neanes adalah perangkat lunak sumber terbuka untuk membuat, mengedit, dan mengekspor partitur nyanyian Bizantium.",
+    "projectDescription": "St. George Neane's adalah perangkat lunak sumber terbuka untuk membuat, mengedit, dan mengekspor partitur nyanyian Bizantium.",
+    "basedOn": "Berdasarkan Neanes oleh {{author}} dan para kontributor Neanes, dilisensikan di bawah GPL-3.0.",
+    "originalProject": "Neanes asli",
     "sourceCode": "Kode Sumber",
     "guide": "Panduan",
     "requestFeature": "Minta Fitur",
@@ -334,7 +336,7 @@
     "description": "Atur bahasa, mode warna, interaksi menu, dan tempo default.",
     "language": "Bahasa",
     "languageSystemDefault": "Bawaan sistem",
-    "helpTranslate": "Bantu terjemahkan Neanes",
+    "helpTranslate": "Bantu terjemahkan St. George Neane's",
     "colorMode": "Mode Warna",
     "colorModeLight": "Terang",
     "colorModeDark": "Gelap",
@@ -355,7 +357,7 @@
   },
   "mcpSetup": {
     "title": "Hubungkan ke alat AI…",
-    "description": "Gunakan alat AI yang kompatibel dengan MCP untuk mengerjakan partitur Neanes.",
+    "description": "Gunakan alat AI yang kompatibel dengan MCP untuk mengerjakan partitur St. George Neane's.",
     "client": "Klien",
     "otherClient": "Klien MCP lainnya",
     "format": "Format",
@@ -370,8 +372,8 @@
     "copyJson": "Salin JSON",
     "copied": "Disalin",
     "copyFailed": "Tidak dapat menyalin. Pilih dan salin teks di atas.",
-    "loadFailed": "Tidak dapat menentukan lokasi berkas program Neanes. Tutup dialog ini dan coba lagi.",
-    "reconnect": "Hubungkan kembali alat AI setelah pengaturan. Jika Anda memindahkan Neanes atau mengganti nama AppImage, perbarui lokasi berkas program dalam konfigurasi klien.",
+    "loadFailed": "Tidak dapat menentukan lokasi berkas program St. George Neane's. Tutup dialog ini dan coba lagi.",
+    "reconnect": "Hubungkan kembali alat AI setelah pengaturan. Jika Anda memindahkan St. George Neane's atau mengganti nama AppImage, perbarui lokasi berkas program dalam konfigurasi klien.",
     "accessTitle": "Apa yang dapat diakses?",
     "accessDescription": "Alat yang terhubung dapat membaca, mengedit, menyimpan, dan mengekspor partitur sesuai izin berkas sistem operasi Anda. Secara bawaan, alat menggunakan dokumen pribadi terpisah dan juga dapat membaca serta mengedit tab editor yang terbuka jika secara eksplisit menargetkan editor. Draf pribadi akan dibuang saat koneksi berakhir kecuali sudah disimpan.",
     "documentation": "Dokumentasi"
@@ -389,5 +391,10 @@
     "reference": "Referensi",
     "body": "Label catatan kaki",
     "invalid": "Masukkan 1–16 karakter tanpa baris baru."
+  },
+  "importPdf": {
+    "title": "Impor Partitur PDF",
+    "failed": "Gagal membuka file PDF",
+    "dropHint": "Letakkan partitur PDF di sini untuk mengimpornya"
   }
 }

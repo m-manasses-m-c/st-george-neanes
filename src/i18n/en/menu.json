@@ -6,6 +6,7 @@
     "openRecent": "Open Recent",
     "import": "Import",
     "importFromOcr": "OCR Result…",
+    "importFromPdf": "PDF Score…",
     "save": "Save",
     "saveAs": "Save As…",
     "pageSetup": "Page Setup…",
@@ -17,7 +18,7 @@
     "exportAsMusicXml": "Export as MusicXML…",
     "exportAsImage": "Export as Image…",
     "print": "Print…",
-    "printLayoutPending": "The score is still being laid out. Close this preview and choose File → Print in Neanes.",
+    "printLayoutPending": "The score is still being laid out. Close this preview and choose File → Print in St. George Neane's.",
     "close": "Close",
     "closeOthers": "Close Others"
   },
@@ -108,7 +109,7 @@
     "nested": "Footnotes cannot contain footnote references.",
     "unsupportedExport": "This export format does not yet support footnotes. Use PDF or PNG to preserve them.",
     "lyrics": "Footnote {{number}} Lyrics",
-    "pasteUnavailable": "Footnote references can only be pasted from Neanes into a rich textbox in the main score.",
+    "pasteUnavailable": "Footnote references can only be pasted from St. George Neane's into a rich textbox in the main score.",
     "properties": "Footnote Properties…"
   }
 }

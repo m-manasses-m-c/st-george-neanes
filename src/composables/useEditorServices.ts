@@ -9,6 +9,7 @@ import {
   musicXmlExporterKey,
   neumeKeyboardKey,
   ocrImporterKey,
+  pdfImporterKey,
   platformServiceKey,
   playbackServiceKey,
   textSearchServiceKey,
@@ -18,6 +19,7 @@ import { PlaybackService } from '@/services/audio/PlaybackService';
 import { LatexExporter } from '@/services/integration/LatexExporter';
 import { MusicXmlExporter } from '@/services/integration/MusicXmlExporter';
 import { OcrImporter } from '@/services/integration/OcrImporter';
+import { PdfImporter } from '@/services/integration/pdf/PdfImporter';
 import { IpcService } from '@/services/ipc/IpcService';
 import { LyricService } from '@/services/LyricService';
 import { NeumeKeyboard } from '@/services/NeumeKeyboard';
@@ -40,6 +42,7 @@ export function useEditorServices() {
     ),
     neumeKeyboard: injectOrCreate(neumeKeyboardKey, () => new NeumeKeyboard()),
     ocrImporter: injectOrCreate(ocrImporterKey, () => new OcrImporter()),
+    pdfImporter: injectOrCreate(pdfImporterKey, () => new PdfImporter()),
     platformService: injectOrCreate(
       platformServiceKey,
       () => new PlatformService(),

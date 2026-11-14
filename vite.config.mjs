@@ -79,8 +79,8 @@ export default defineConfig(({ command, mode }) => {
               'safari-pinned-tab.svg',
             ],
             manifest: {
-              name: 'Neanes',
-              short_name: 'Neanes',
+              name: "St. George Neane's",
+              short_name: "St. George Neane's",
               description: 'A Byzantine Chant Scorewriter',
               theme_color: '#052F43',
               icons: [

@@ -11,7 +11,7 @@
   },
   "recovery": {
     "root": "Recover Unsaved Work",
-    "description": "The following scores were not saved properly the last time Neanes ran and can be recovered automatically. After recovering a score, save it to ensure your changes are written to disk.",
+    "description": "The following scores were not saved properly the last time St. George Neane's ran and can be recovered automatically. After recovering a score, save it to ensure your changes are written to disk.",
     "recoverSelected": "Recover Selected",
     "discardSelected": "Discard Selected",
     "notNow": "Not Now",
@@ -314,7 +314,7 @@
     "close": "Close"
   },
   "about": {
-    "root": "About Neanes",
+    "root": "About St. George Neane's",
     "description": "A Byzantine Chant Scorewriter",
     "version": "Version",
     "platform": "Platform",
@@ -322,7 +322,9 @@
     "web": "Web",
     "license": "License",
     "project": "Project",
-    "projectDescription": "Neanes is open-source software for creating, editing, and exporting Byzantine chant scores.",
+    "projectDescription": "St. George Neane's is open-source software for creating, editing, and exporting Byzantine chant scores.",
+    "basedOn": "Based on Neanes by {{author}} and the Neanes contributors, licensed under GPL-3.0.",
+    "originalProject": "Original Neanes",
     "sourceCode": "Source Code",
     "guide": "Guide",
     "requestFeature": "Request Feature",
@@ -334,7 +336,7 @@
     "description": "Configure language, color mode, menu interaction, and default tempos.",
     "language": "Language",
     "languageSystemDefault": "System default",
-    "helpTranslate": "Help translate Neanes",
+    "helpTranslate": "Help translate St. George Neane's",
     "colorMode": "Color Mode",
     "colorModeLight": "Light",
     "colorModeDark": "Dark",
@@ -355,7 +357,7 @@
   },
   "mcpSetup": {
     "title": "Connect to AI tools…",
-    "description": "Use an MCP-compatible AI tool to work with Neanes scores.",
+    "description": "Use an MCP-compatible AI tool to work with St. George Neane's scores.",
     "client": "Client",
     "otherClient": "Other MCP client",
     "format": "Format",
@@ -370,8 +372,8 @@
     "copyJson": "Copy JSON",
     "copied": "Copied",
     "copyFailed": "Could not copy. Select and copy the text above.",
-    "loadFailed": "Could not determine the Neanes executable path. Close this dialog and try again.",
-    "reconnect": "Reconnect your AI tool after setup. If you move Neanes or rename its AppImage, update the executable path in your client configuration.",
+    "loadFailed": "Could not determine the St. George Neane's executable path. Close this dialog and try again.",
+    "reconnect": "Reconnect your AI tool after setup. If you move St. George Neane's or rename its AppImage, update the executable path in your client configuration.",
     "accessTitle": "What can it access?",
     "accessDescription": "Connected tools can read, edit, save, and export score files using your operating system’s file permissions. They work with separate private documents by default and can also read and edit open editor tabs when explicitly targeting the editor. Private drafts are discarded when the connection ends unless saved.",
     "documentation": "Documentation"
@@ -380,7 +382,6 @@
     "positioning": "Positioning",
     "overridePosition": "Override position",
     "dragMarker": "Drag footnote marker",
-
     "offsetX": "Horizontal offset (em)",
     "offsetY": "Vertical offset (em)",
     "positionHint": "Enable Override position to drag the marker or edit offsets without automatic collision adjustment. Positive values move right or down.",
@@ -390,5 +391,10 @@
     "reference": "Reference",
     "body": "Footnote label",
     "invalid": "Enter 1–16 characters without line breaks."
+  },
+  "importPdf": {
+    "title": "Import PDF Score",
+    "failed": "Open PDF file failed",
+    "dropHint": "Drop a PDF score here to import it"
   }
 }

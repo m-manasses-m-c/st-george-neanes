@@ -6,6 +6,7 @@
     "openRecent": "Deschide recent",
     "import": "Importă",
     "importFromOcr": "Rezultat OCR…",
+    "importFromPdf": "Partitură PDF…",
     "save": "Salvează",
     "saveAs": "Salvează ca…",
     "pageSetup": "Configurare pagină…",
@@ -17,7 +18,7 @@
     "exportAsMusicXml": "Exportă ca MusicXML…",
     "exportAsImage": "Exportă ca imagine…",
     "print": "Tipărește…",
-    "printLayoutPending": "Paginarea partiturii este în curs. Închide această previzualizare și alege Fișier → Tipărește în Neanes.",
+    "printLayoutPending": "Paginarea partiturii este în curs. Închide această previzualizare și alege Fișier → Tipărește în St. George Neane's.",
     "close": "Închide",
     "closeOthers": "Închide celelalte"
   },
@@ -108,7 +109,7 @@
     "nested": "Notele de subsol nu pot conține referințe la note de subsol.",
     "unsupportedExport": "Acest format de export nu acceptă încă note de subsol. Folosiți PDF sau PNG pentru a le păstra.",
     "lyrics": "Versurile notei de subsol {{number}}",
-    "pasteUnavailable": "Referințele la note de subsol pot fi lipite doar din Neanes într-o casetă de text îmbogățit din partitura principală.",
+    "pasteUnavailable": "Referințele la note de subsol pot fi lipite doar din St. George Neane's într-o casetă de text îmbogățit din partitura principală.",
     "properties": "Proprietățile notei de subsol…"
   }
 }

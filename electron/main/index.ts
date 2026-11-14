@@ -40,6 +40,7 @@ import type {
   ExportWorkspaceAsPdfArgs,
   ExportWorkspaceReplyArgs,
   FileMenuImportOcrArgs,
+  FileMenuImportPdfArgs,
   FileMenuInsertTextboxArgs,
   FileMenuOpenImageArgs,
   FileMenuOpenScoreArgs,
@@ -791,6 +792,50 @@ async function insertImageFromDialog() {
       win?.webContents.send(IpcMainChannels.FileMenuInsertImage, data);
     }
   });
+}
+
+async function openPdfFile() {
+  const result: FileMenuImportPdfArgs = {
+    filePath: '',
+    data: new Uint8Array(),
+    success: false,
+  };
+
+  try {
+    const dialogResult = await dialog.showOpenDialog(win!, {
+      properties: ['openFile'],
+      title: i18next.t(($) => $.dialog.importPdf.title),
+      defaultPath: await generateFilePath(''),
+      filters: [
+        {
+          name: 'PDF',
+          extensions: ['pdf'],
+        },
+      ],
+    });
+
+    if (!dialogResult.canceled) {
+      const filePath = dialogResult.filePaths[0];
+      store.lastDirectory = path.dirname(filePath);
+      await saveStore();
+
+      result.data = new Uint8Array(await fs.readFile(filePath));
+      result.filePath = filePath;
+      result.success = true;
+    }
+  } catch (error) {
+    console.error(error);
+
+    if (error instanceof Error) {
+      await dialog.showMessageBox(win!, {
+        type: 'error',
+        title: i18next.t(($) => $.dialog.importPdf.failed),
+        message: error.message,
+      });
+    }
+  }
+
+  return result;
 }
 
 async function openOcrFile() {
@@ -1921,6 +1966,21 @@ function createMenu() {
                   if (data.success) {
                     win?.webContents.send(
                       IpcMainChannels.FileMenuImportOcr,
+                      data,
+                    );
+                  }
+                });
+              },
+            },
+            {
+              label: i18next.t(($) => $.menu.file.importFromPdf),
+              async click() {
+                await editorOperationQueue.run(async () => {
+                  const data = await openPdfFile();
+
+                  if (data.success) {
+                    win?.webContents.send(
+                      IpcMainChannels.FileMenuImportPdf,
                       data,
                     );
                   }

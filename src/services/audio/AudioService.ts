@@ -27,6 +27,12 @@ export class AudioService {
   synth: Tone.Synth | Tone.FMSynth | null = null;
   isonSynth: Tone.Synth | Tone.FMSynth | null = null;
 
+  // Melody and ison are mixed on one bus before the speakers. Each synth can
+  // reach full scale on its own, so their sum is lowered and then limited;
+  // otherwise the two voices clip and distort each other.
+  private output: Tone.Volume | null = null;
+  private limiter: Tone.Limiter | null = null;
+
   part: Tone.Part | null = null;
 
   toneEvents: ToneEvent[] = [];
@@ -43,9 +49,18 @@ export class AudioService {
     // Tone's AudioContext during app startup.
   }
 
+  private getOutput(): Tone.Volume {
+    if (this.output == null) {
+      this.limiter = new Tone.Limiter(-1).toDestination();
+      this.output = new Tone.Volume(-6).connect(this.limiter);
+    }
+
+    return this.output;
+  }
+
   private getSynth(): Tone.Synth | Tone.FMSynth {
     if (this.synth == null) {
-      this.synth = new Tone.Synth().toDestination();
+      this.synth = new Tone.Synth().connect(this.getOutput());
     }
 
     return this.synth;
@@ -53,7 +68,7 @@ export class AudioService {
 
   private getIsonSynth(): Tone.Synth | Tone.FMSynth {
     if (this.isonSynth == null) {
-      this.isonSynth = new Tone.Synth().toDestination();
+      this.isonSynth = new Tone.Synth().connect(this.getOutput());
       this.isonSynth.volume.value = -4;
     }
 
@@ -80,6 +95,8 @@ export class AudioService {
 
     this.synth?.dispose();
     this.isonSynth?.dispose();
+    this.output?.dispose();
+    this.limiter?.dispose();
   }
 
   async play(

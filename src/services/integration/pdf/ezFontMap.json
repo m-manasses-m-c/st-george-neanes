@@ -1,0 +1,1619 @@
+{
+  "ezfthora": {
+    "!": [
+      {
+        "g": [
+          "fthoraHardChromaticPaAbove",
+          "fthoraHardChromaticPa",
+          "fthoraHardChromaticPaBelow"
+        ],
+        "b": [-0.748, 1.32, -0.001, 1.592]
+      }
+    ],
+    "\"": [{ "g": ["yfesis6"], "b": [-0.258, 1.28, 0.098, 1.636] }],
+    "#": [
+      {
+        "g": ["diesisGenikiBelow", "diesisGenikiAbove"],
+        "b": [-0.412, 1.292, -0.175, 1.709]
+      }
+    ],
+    "$": [
+      {
+        "g": [
+          "martyriaSoftChromaticKeBelow",
+          "martyriaSoftChromaticKeAbove",
+          "fthoraSoftChromaticKeBelow",
+          "fthoraSoftChromaticKeAbove",
+          "fthoraSoftChromaticKe"
+        ],
+        "b": [-0.498, 1.244, -0.067, 1.669]
+      }
+    ],
+    "%": [
+      {
+        "g": ["yfesisGenikiBelow", "yfesisGenikiAbove"],
+        "b": [-0.407, 1.285, -0.167, 1.709]
+      }
+    ],
+    "&": [
+      {
+        "g": [
+          "fthoraDiatonicNiHighBelow",
+          "fthoraDiatonicNiHighAbove",
+          "fthoraDiatonicNiHigh"
+        ],
+        "b": [-0.473, 1.259, -0.14, 1.724]
+      }
+    ],
+    "'": [{ "g": ["yfesis6"], "b": [-0.799, 1.268, -0.446, 1.619] }],
+    "(": [
+      {
+        "g": ["chroaKlitonBelow", "chroaKlitonAbove", "chroaKliton"],
+        "b": [-0.423, 1.282, 0.059, 1.744]
+      }
+    ],
+    ")": [
+      {
+        "g": [
+          "fthoraEnharmonicBelow",
+          "fthoraEnharmonicAbove",
+          "fthoraEnharmonic"
+        ],
+        "b": [-0.389, 1.297, 0.033, 1.656]
+      }
+    ],
+    "*": [
+      {
+        "g": [
+          "martyriaZygosBelow",
+          "martyriaZygosAbove",
+          "chroaZygosBelow",
+          "chroaZygosAbove",
+          "chroaZygos"
+        ],
+        "b": [-0.415, 1.306, 0.017, 1.732]
+      }
+    ],
+    "+": [{ "g": ["diesis2"], "b": [-0.653, 0.339, -0.33, 0.658] }],
+    ",": [{ "g": ["noteIndicatorKe"], "b": [-1.314, 1.312, -1.005, 1.632] }],
+    "-": [{ "g": ["yfesis2"], "b": [-0.759, 1.304, -0.431, 1.63] }],
+    ".": [{ "g": ["noteIndicatorZo"], "b": [-1.336, 1.33, -1.029, 1.656] }],
+    "/": [{ "g": ["noteIndicatorDi"], "b": [-1.191, 0.371, -0.906, 0.689] }],
+    "0": [
+      {
+        "g": [
+          "fthoraEnharmonicAbove",
+          "fthoraEnharmonic",
+          "fthoraEnharmonicBelow"
+        ],
+        "b": [-0.934, 1.259, -0.509, 1.619]
+      }
+    ],
+    "1": [
+      {
+        "g": [
+          "fthoraHardChromaticPaBelow",
+          "fthoraHardChromaticPaAbove",
+          "fthoraHardChromaticPa"
+        ],
+        "b": [-1.113, 1.263, -0.367, 1.534]
+      }
+    ],
+    "2": [
+      {
+        "g": [
+          "fthoraSoftChromaticDiBelow",
+          "fthoraSoftChromaticDiAbove",
+          "fthoraSoftChromaticDi"
+        ],
+        "b": [-1.158, 1.23, -0.322, 1.534]
+      }
+    ],
+    "3": [
+      {
+        "g": ["diesisGenikiBelow", "diesisGenikiAbove"],
+        "b": [-0.859, 1.258, -0.62, 1.679]
+      }
+    ],
+    "4": [
+      {
+        "g": [
+          "martyriaSoftChromaticKeBelow",
+          "martyriaSoftChromaticKeAbove",
+          "fthoraSoftChromaticKeBelow",
+          "fthoraSoftChromaticKeAbove",
+          "fthoraSoftChromaticKe"
+        ],
+        "b": [-0.956, 1.245, -0.526, 1.669]
+      }
+    ],
+    "5": [
+      {
+        "g": ["yfesisGenikiBelow", "yfesisGenikiAbove"],
+        "b": [-0.898, 1.251, -0.659, 1.672]
+      }
+    ],
+    "6": [
+      {
+        "g": [
+          "fthoraHardChromaticDiBelow",
+          "fthoraHardChromaticDiAbove",
+          "fthoraHardChromaticDi"
+        ],
+        "b": [-0.938, 1.245, -0.577, 1.607]
+      }
+    ],
+    "7": [
+      {
+        "g": [
+          "fthoraDiatonicNiHighBelow",
+          "fthoraDiatonicNiHighAbove",
+          "fthoraDiatonicNiHigh"
+        ],
+        "b": [-0.918, 1.253, -0.613, 1.696]
+      }
+    ],
+    "8": [
+      {
+        "g": [
+          "martyriaZygosBelow",
+          "martyriaZygosAbove",
+          "chroaZygosBelow",
+          "chroaZygosAbove",
+          "chroaZygos"
+        ],
+        "b": [-0.878, 1.288, -0.445, 1.715]
+      }
+    ],
+    "9": [
+      {
+        "g": ["chroaKlitonBelow", "chroaKlitonAbove", "chroaKliton"],
+        "b": [-0.934, 1.243, -0.448, 1.709]
+      }
+    ],
+    ":": [{ "g": ["diesis6"], "b": [-0.663, 0.305, -0.305, 0.661] }],
+    ";": [{ "g": ["diesis6"], "b": [-1.102, 0.324, -0.749, 0.676] }],
+    "<": [{ "g": ["noteIndicatorKe"], "b": [-0.509, 1.32, -0.205, 1.634] }],
+    "=": [{ "g": ["diesis2"], "b": [-1.107, 0.354, -0.779, 0.677] }],
+    ">": [{ "g": ["noteIndicatorZo"], "b": [-0.528, 1.33, -0.227, 1.651] }],
+    "?": [
+      {
+        "g": ["martyriaNotePa", "martyriaNotePaLow"],
+        "b": [-1.193, 0.343, -0.885, 0.644]
+      }
+    ],
+    "@": [
+      {
+        "g": [
+          "fthoraSoftChromaticDiBelow",
+          "fthoraSoftChromaticDiAbove",
+          "fthoraSoftChromaticDi",
+          "chroaSpathiBelow",
+          "chroaSpathiAbove",
+          "chroaSpathi"
+        ],
+        "b": [-0.795, 1.312, 0.028, 1.611]
+      }
+    ],
+    "A": [
+      {
+        "g": [
+          "fthoraDiatonicPaBelow",
+          "fthoraDiatonicPaAbove",
+          "fthoraDiatonicPa"
+        ],
+        "b": [-0.415, 0.272, -0.178, 0.665]
+      }
+    ],
+    "B": [{ "g": ["noteIndicatorVou"], "b": [-0.468, 1.309, -0.267, 1.657] }],
+    "C": [{ "g": ["noteIndicatorNi"], "b": [-0.479, 1.328, -0.241, 1.645] }],
+    "D": [
+      {
+        "g": [
+          "fthoraDiatonicNiLowBelow",
+          "fthoraDiatonicNiLowAbove",
+          "fthoraDiatonicNiLow"
+        ],
+        "b": [-0.419, 1.254, -0.09, 1.616]
+      }
+    ],
+    "E": [
+      {
+        "g": ["diesisGenikiBelow", "diesisGenikiAbove"],
+        "b": [-0.383, 0.286, -0.146, 0.704]
+      }
+    ],
+    "F": [
+      {
+        "g": [
+          "fthoraDiatonicPaBelow",
+          "fthoraDiatonicPaAbove",
+          "fthoraDiatonicPa"
+        ],
+        "b": [-0.46, 1.198, -0.224, 1.584]
+      }
+    ],
+    "G": [
+      {
+        "g": [
+          "fthoraDiatonicVouBelow",
+          "fthoraDiatonicVouAbove",
+          "fthoraDiatonicVou"
+        ],
+        "b": [-0.441, 1.264, -0.06, 1.893]
+      }
+    ],
+    "H": [
+      {
+        "g": [
+          "fthoraDiatonicGaBelow",
+          "fthoraDiatonicGaAbove",
+          "fthoraDiatonicGa"
+        ],
+        "b": [-0.409, 1.26, -0.17, 1.736]
+      }
+    ],
+    "I": [
+      {
+        "g": [
+          "martyriaZygosBelow",
+          "martyriaZygosAbove",
+          "chroaZygosBelow",
+          "chroaZygosAbove",
+          "chroaZygos"
+        ],
+        "b": [-0.483, 0.31, -0.052, 0.736]
+      }
+    ],
+    "J": [
+      {
+        "g": [
+          "fthoraDiatonicDiBelow",
+          "fthoraDiatonicDiAbove",
+          "fthoraDiatonicDi"
+        ],
+        "b": [-0.494, 1.225, -0.134, 1.588]
+      }
+    ],
+    "K": [
+      {
+        "g": [
+          "fthoraDiatonicKeBelow",
+          "fthoraDiatonicKeAbove",
+          "fthoraDiatonicKe"
+        ],
+        "b": [-0.47, 1.221, -0.234, 1.606]
+      }
+    ],
+    "L": [
+      {
+        "g": [
+          "fthoraDiatonicZoAbove",
+          "fthoraDiatonicZo",
+          "fthoraDiatonicZoBelow"
+        ],
+        "b": [-0.41, 1.264, -0.029, 1.939]
+      }
+    ],
+    "M": [{ "g": ["noteIndicatorDi"], "b": [-0.505, 1.328, -0.211, 1.657] }],
+    "N": [{ "g": ["noteIndicatorGa"], "b": [-0.521, 1.333, -0.239, 1.67] }],
+    "O": [
+      {
+        "g": ["chroaKlitonBelow", "chroaKlitonAbove", "chroaKliton"],
+        "b": [-0.571, 0.223, -0.083, 0.691]
+      }
+    ],
+    "P": [
+      {
+        "g": [
+          "fthoraEnharmonicAbove",
+          "fthoraEnharmonic",
+          "fthoraEnharmonicBelow"
+        ],
+        "b": [-0.628, 0.306, -0.206, 0.666]
+      }
+    ],
+    "Q": [
+      {
+        "g": [
+          "fthoraHardChromaticPaAbove",
+          "fthoraHardChromaticPa",
+          "fthoraHardChromaticPaBelow"
+        ],
+        "b": [-0.748, 0.395, -0.0, 0.666]
+      }
+    ],
+    "R": [
+      {
+        "g": [
+          "martyriaSoftChromaticKeBelow",
+          "martyriaSoftChromaticKeAbove",
+          "fthoraSoftChromaticKeBelow",
+          "fthoraSoftChromaticKeAbove",
+          "fthoraSoftChromaticKe"
+        ],
+        "b": [-0.517, 0.267, -0.087, 0.692]
+      }
+    ],
+    "S": [
+      {
+        "g": [
+          "fthoraDiatonicDiBelow",
+          "fthoraDiatonicDiAbove",
+          "fthoraDiatonicDi"
+        ],
+        "b": [-0.468, 0.354, -0.108, 0.716]
+      }
+    ],
+    "T": [
+      {
+        "g": ["yfesisGenikiBelow", "yfesisGenikiAbove"],
+        "b": [-0.408, 0.279, -0.168, 0.7]
+      }
+    ],
+    "U": [
+      {
+        "g": [
+          "fthoraDiatonicNiHighBelow",
+          "fthoraDiatonicNiHighAbove",
+          "fthoraDiatonicNiHigh"
+        ],
+        "b": [-0.443, 0.222, -0.106, 0.694]
+      }
+    ],
+    "V": [
+      {
+        "g": ["martyriaNotePa", "martyriaNotePaLow"],
+        "b": [-0.535, 1.324, -0.226, 1.625]
+      }
+    ],
+    "W": [
+      {
+        "g": [
+          "fthoraSoftChromaticDiBelow",
+          "fthoraSoftChromaticDiAbove",
+          "fthoraSoftChromaticDi",
+          "chroaSpathiBelow",
+          "chroaSpathiAbove",
+          "chroaSpathi"
+        ],
+        "b": [-0.712, 0.35, 0.109, 0.648]
+      }
+    ],
+    "X": [
+      {
+        "g": [
+          "fthoraDiatonicKeBelow",
+          "fthoraDiatonicKeAbove",
+          "fthoraDiatonicKe"
+        ],
+        "b": [-0.4, 0.315, -0.164, 0.706]
+      }
+    ],
+    "Y": [
+      {
+        "g": [
+          "fthoraHardChromaticDiBelow",
+          "fthoraHardChromaticDiAbove",
+          "fthoraHardChromaticDi"
+        ],
+        "b": [-0.482, 0.32, -0.12, 0.683]
+      }
+    ],
+    "Z": [
+      {
+        "g": [
+          "fthoraDiatonicNiLowAbove",
+          "fthoraDiatonicNiLow",
+          "fthoraDiatonicNiLowBelow"
+        ],
+        "b": [-0.414, 0.33, -0.089, 0.688]
+      }
+    ],
+    "[": [{ "g": ["yfesis4"], "b": [-0.773, 1.29, -0.446, 1.614] }],
+    "]": [{ "g": ["diesis4"], "b": [-1.112, 0.354, -0.783, 0.679] }],
+    "^": [
+      {
+        "g": [
+          "fthoraHardChromaticDiBelow",
+          "fthoraHardChromaticDiAbove",
+          "fthoraHardChromaticDi"
+        ],
+        "b": [-0.459, 1.269, -0.097, 1.634]
+      }
+    ],
+    "_": [{ "g": ["yfesis2"], "b": [-0.233, 1.305, 0.093, 1.628] }],
+    "`": [
+      {
+        "g": ["chroaSpathiBelow", "chroaSpathiAbove", "chroaSpathi"],
+        "b": [-1.158, 1.208, -0.322, 1.511]
+      }
+    ],
+    "a": [
+      {
+        "g": [
+          "fthoraDiatonicPaBelow",
+          "fthoraDiatonicPaAbove",
+          "fthoraDiatonicPa"
+        ],
+        "b": [-0.89, 0.291, -0.656, 0.68]
+      }
+    ],
+    "b": [{ "g": ["noteIndicatorVou"], "b": [-1.274, 1.312, -1.076, 1.658] }],
+    "c": [{ "g": ["noteIndicatorNi"], "b": [-1.305, 1.322, -1.062, 1.642] }],
+    "d": [
+      {
+        "g": [
+          "fthoraDiatonicNiLowAbove",
+          "fthoraDiatonicNiLow",
+          "fthoraDiatonicNiLowBelow"
+        ],
+        "b": [-0.914, 1.243, -0.587, 1.603]
+      }
+    ],
+    "e": [
+      {
+        "g": ["diesisGenikiBelow", "diesisGenikiAbove"],
+        "b": [-0.908, 0.338, -0.669, 0.76]
+      }
+    ],
+    "f": [
+      {
+        "g": [
+          "fthoraDiatonicPaBelow",
+          "fthoraDiatonicPaAbove",
+          "fthoraDiatonicPa"
+        ],
+        "b": [-0.87, 1.168, -0.634, 1.554]
+      }
+    ],
+    "g": [
+      {
+        "g": [
+          "fthoraDiatonicVouBelow",
+          "fthoraDiatonicVouAbove",
+          "fthoraDiatonicVou"
+        ],
+        "b": [-0.875, 1.154, -0.494, 1.782]
+      }
+    ],
+    "h": [
+      {
+        "g": [
+          "fthoraDiatonicGaBelow",
+          "fthoraDiatonicGaAbove",
+          "fthoraDiatonicGa"
+        ],
+        "b": [-0.881, 1.168, -0.642, 1.646]
+      }
+    ],
+    "i": [
+      {
+        "g": [
+          "martyriaZygosBelow",
+          "martyriaZygosAbove",
+          "chroaZygosBelow",
+          "chroaZygosAbove",
+          "chroaZygos"
+        ],
+        "b": [-0.971, 0.364, -0.538, 0.791]
+      }
+    ],
+    "j": [
+      {
+        "g": [
+          "fthoraDiatonicDiBelow",
+          "fthoraDiatonicDiAbove",
+          "fthoraDiatonicDi"
+        ],
+        "b": [-0.948, 1.24, -0.586, 1.604]
+      }
+    ],
+    "k": [
+      {
+        "g": [
+          "fthoraDiatonicKeBelow",
+          "fthoraDiatonicKeAbove",
+          "fthoraDiatonicKe"
+        ],
+        "b": [-0.87, 1.182, -0.635, 1.566]
+      }
+    ],
+    "l": [
+      {
+        "g": [
+          "fthoraDiatonicZoAbove",
+          "fthoraDiatonicZo",
+          "fthoraDiatonicZoBelow"
+        ],
+        "b": [-0.873, 1.151, -0.492, 1.826]
+      }
+    ],
+    "m": [{ "g": ["noteIndicatorDi"], "b": [-1.308, 1.34, -1.02, 1.662] }],
+    "n": [{ "g": ["noteIndicatorGa"], "b": [-1.306, 1.347, -1.024, 1.683] }],
+    "o": [
+      {
+        "g": ["chroaKlitonBelow", "chroaKlitonAbove", "chroaKliton"],
+        "b": [-0.964, 0.26, -0.474, 0.729]
+      }
+    ],
+    "p": [
+      {
+        "g": [
+          "fthoraEnharmonicAbove",
+          "fthoraEnharmonic",
+          "fthoraEnharmonicBelow"
+        ],
+        "b": [-1.007, 0.364, -0.583, 0.724]
+      }
+    ],
+    "q": [
+      {
+        "g": [
+          "fthoraHardChromaticPaBelow",
+          "fthoraHardChromaticPaAbove",
+          "fthoraHardChromaticPa"
+        ],
+        "b": [-1.118, 0.458, -0.372, 0.728]
+      }
+    ],
+    "r": [
+      {
+        "g": [
+          "martyriaSoftChromaticKeBelow",
+          "martyriaSoftChromaticKeAbove",
+          "fthoraSoftChromaticKeBelow",
+          "fthoraSoftChromaticKeAbove",
+          "fthoraSoftChromaticKe"
+        ],
+        "b": [-0.991, 0.292, -0.554, 0.721]
+      }
+    ],
+    "s": [
+      {
+        "g": [
+          "fthoraDiatonicDiBelow",
+          "fthoraDiatonicDiAbove",
+          "fthoraDiatonicDi"
+        ],
+        "b": [-0.94, 0.35, -0.575, 0.716]
+      }
+    ],
+    "t": [
+      {
+        "g": ["yfesisGenikiBelow", "yfesisGenikiAbove"],
+        "b": [-0.898, 0.331, -0.662, 0.748]
+      }
+    ],
+    "u": [
+      {
+        "g": [
+          "fthoraDiatonicNiHighBelow",
+          "fthoraDiatonicNiHighAbove",
+          "fthoraDiatonicNiHigh"
+        ],
+        "b": [-0.892, 0.35, -0.557, 0.818]
+      }
+    ],
+    "v": [{ "g": ["noteIndicatorPa"], "b": [-1.342, 1.327, -1.037, 1.625] }],
+    "w": [
+      {
+        "g": [
+          "fthoraSoftChromaticDiBelow",
+          "fthoraSoftChromaticDiAbove",
+          "fthoraSoftChromaticDi"
+        ],
+        "b": [-1.221, 0.397, -0.379, 0.703]
+      }
+    ],
+    "x": [
+      {
+        "g": [
+          "fthoraDiatonicKeBelow",
+          "fthoraDiatonicKeAbove",
+          "fthoraDiatonicKe"
+        ],
+        "b": [-0.895, 0.314, -0.657, 0.708]
+      }
+    ],
+    "y": [
+      {
+        "g": [
+          "fthoraHardChromaticDiBelow",
+          "fthoraHardChromaticDiAbove",
+          "fthoraHardChromaticDi"
+        ],
+        "b": [-0.949, 0.355, -0.584, 0.721]
+      }
+    ],
+    "z": [
+      {
+        "g": [
+          "fthoraDiatonicNiLowAbove",
+          "fthoraDiatonicNiLow",
+          "fthoraDiatonicNiLowBelow"
+        ],
+        "b": [-0.892, 0.345, -0.566, 0.704]
+      }
+    ],
+    "{": [{ "g": ["yfesis4"], "b": [-0.247, 1.292, 0.079, 1.616] }],
+    "}": [{ "g": ["diesis4"], "b": [-0.658, 0.339, -0.332, 0.662] }],
+    "~": [
+      {
+        "g": ["chroaSpathiBelow", "chroaSpathiAbove", "chroaSpathi"],
+        "b": [-0.792, 1.3, 0.027, 1.596]
+      }
+    ]
+  },
+  "ezoxeia": {
+    "!": [{ "g": ["oligonApostrofos"], "b": [0.082, 0.904, 1.431, 1.552] }],
+    "\"": [{ "g": ["antikenoma"], "b": [-1.055, 0.523, 0.282, 0.818] }],
+    "#": [
+      { "g": ["oligonElafronApostrofos"], "b": [0.082, 0.904, 1.431, 1.594] }
+    ],
+    "$": [{ "g": ["oligonChamili"], "b": [0.082, 0.904, 1.431, 1.703] }],
+    "%": [
+      { "g": ["oligonYpsiliRightKentimata"], "b": [0.082, 0.904, 1.459, 1.901] }
+    ],
+    "&": [
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.895, 1.547, 1.497] }
+    ],
+    "'": [{ "g": ["psifiston"], "b": [-1.422, 0.436, 0.017, 0.906] }],
+    "(": [
+      {
+        "g": ["digorgon", "digorgonDottedRight"],
+        "b": [0.283, 1.544, 0.846, 1.881]
+      },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.9, 1.546, 1.5] }
+    ],
+    "*": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [0.402, 1.552, 0.708, 1.746]
+      },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.896, 1.546, 1.502] }
+    ],
+    "-": [
+      { "g": ["oligonYporroi"], "b": [0.063, 0.904, 1.413, 1.776] },
+      { "g": ["gorgonAbove"], "b": [0.063, 0.904, 1.413, 1.776] }
+    ],
+    "/": [{ "g": ["psifiston"], "b": [-1.631, 0.297, -0.112, 0.749] }],
+    "1": [{ "g": ["oligon"], "b": [0.063, 0.904, 1.413, 1.152] }],
+    "2": [{ "g": ["oligonKentimaBelow"], "b": [0.082, 0.746, 1.431, 1.152] }],
+    "3": [{ "g": ["oligonKentimaAbove"], "b": [0.082, 0.904, 1.431, 1.492] }],
+    "4": [{ "g": ["oligonYpsiliRight"], "b": [0.082, 0.904, 1.444, 1.892] }],
+    "5": [{ "g": ["oligonYpsiliLeft"], "b": [0.082, 0.904, 1.431, 1.813] }],
+    "6": [
+      { "g": ["oligonKentimaYpsiliRight"], "b": [0.082, 0.904, 1.431, 1.901] }
+    ],
+    "7": [
+      { "g": ["oligonKentimaYpsiliMiddle"], "b": [0.082, 0.904, 1.431, 1.925] }
+    ],
+    "8": [{ "g": ["oligonDoubleYpsili"], "b": [0.082, 0.904, 1.444, 1.911] }],
+    "9": [
+      {
+        "g": ["oligonKentimataDoubleYpsili"],
+        "b": [0.082, 0.831, 1.459, 1.925]
+      }
+    ],
+    ":": [{ "g": ["apli"], "b": [-0.296, 0.546, -0.159, 0.654] }],
+    ";": [{ "g": ["apli"], "b": [-0.83, 0.546, -0.693, 0.654] }],
+    "<": [{ "g": ["modeKe"], "b": [0.333, 1.021, 1.096, 1.521] }],
+    "=": [
+      { "g": ["oligonKentimaBelow"], "b": [0.082, 0.375, 1.5, 1.152] },
+      { "g": ["antikenoma"], "b": [0.082, 0.375, 1.5, 1.152] }
+    ],
+    ">": [{ "g": ["modeZo"], "b": [0.333, 1.021, 1.193, 1.522] }],
+    "@": [{ "g": ["oligonElafron"], "b": [0.082, 0.904, 1.431, 1.594] }],
+    "A": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.595, 1.222, -0.124, 1.422]
+      }
+    ],
+    "B": [{ "g": ["modeVou"], "b": [0.329, 1.021, 1.035, 1.521] }],
+    "C": [{ "g": ["modeNi"], "b": [0.307, 0.806, 1.13, 1.521] }],
+    "D": [
+      {
+        "g": ["digorgon", "digorgonDottedRight"],
+        "b": [-0.507, 1.534, 0.054, 1.875]
+      }
+    ],
+    "E": [{ "g": ["oligonTripleYpsili"], "b": [0.059, 0.904, 1.5, 1.892] }],
+    "F": [{ "g": ["trigorgon"], "b": [-0.521, 1.53, 0.285, 1.908] }],
+    "G": [{ "g": ["diargon"], "b": [-1.011, 1.302, -0.647, 1.706] }],
+    "H": [{ "g": ["gorgonDottedLeft"], "b": [-0.634, 1.514, -0.165, 1.718] }],
+    "I": [{ "g": ["oligonIson"], "b": [0.07, 0.904, 1.42, 1.636] }],
+    "J": [
+      { "g": ["trigorgon"], "b": [0.189, 1.509, 0.996, 1.884] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.896, 1.546, 1.503] }
+    ],
+    "K": [{ "g": ["dipli"], "b": [-0.355, 0.546, 0.006, 0.654] }],
+    "L": [
+      { "g": ["oligonKentimataAbove"], "b": [0.082, 0.904, 1.431, 1.778] },
+      { "g": ["digorgon"], "b": [0.082, 0.904, 1.431, 1.778] }
+    ],
+    "M": [{ "g": ["modeDi"], "b": [0.333, 1.021, 0.976, 1.521] }],
+    "N": [{ "g": ["modeGa"], "b": [0.329, 1.021, 1.056, 1.521] }],
+    "O": [{ "g": ["oligonKentimataAbove"], "b": [0.082, 0.904, 1.431, 1.435] }],
+    "P": [{ "g": ["oligonIsonKentimata"], "b": [0.058, 0.879, 1.783, 1.654] }],
+    "Q": [
+      {
+        "g": ["oligonKentimaDoubleYpsiliRight"],
+        "b": [0.082, 0.904, 1.431, 1.927]
+      }
+    ],
+    "R": [
+      { "g": ["oligonChamiliKentimata"], "b": [0.055, 0.879, 1.794, 1.762] }
+    ],
+    "S": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.478, 1.568, -0.165, 1.772]
+      }
+    ],
+    "T": [
+      {
+        "g": ["oligonElafronApostrofosKentimata"],
+        "b": [0.075, 0.879, 1.804, 1.643]
+      }
+    ],
+    "U": [
+      { "g": ["oligonApostrofosKentimata"], "b": [0.077, 0.9, 1.543, 1.613] }
+    ],
+    "V": [{ "g": ["modePa"], "b": [0.329, 1.021, 1.15, 1.521] }],
+    "W": [
+      {
+        "g": ["oligonKentimaDoubleYpsiliLeft"],
+        "b": [0.073, 0.904, 1.429, 1.927]
+      }
+    ],
+    "X": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.422, 0.449, -0.109, 0.674]
+      }
+    ],
+    "Y": [
+      { "g": ["oligonElafronKentimata"], "b": [0.075, 0.862, 1.953, 1.645] }
+    ],
+    "Z": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-1.232, 1.193, -0.76, 1.392]
+      }
+    ],
+    "[": [
+      {
+        "g": ["omalonConnecting", "omalon"],
+        "b": [-2.113, 0.507, -0.921, 0.793]
+      }
+    ],
+    "^": [
+      { "g": ["oligonYpsiliLeftKentimata"], "b": [0.082, 0.904, 1.431, 1.832] }
+    ],
+    "_": [
+      {
+        "g": ["oligonRunningElafronKentimata"],
+        "b": [-0.011, 0.866, 2.083, 1.607]
+      }
+    ],
+    "`": [{ "g": ["oligonKentimaMiddle"], "b": [0.063, 0.904, 1.413, 1.487] }],
+    "a": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.946, 1.202, -0.474, 1.402]
+      }
+    ],
+    "c": [{ "g": ["antikenoma"], "b": [-0.807, 0.489, 0.365, 0.784] }],
+    "d": [{ "g": ["digorgon"], "b": [-0.811, 1.299, -0.248, 1.667] }],
+    "e": [{ "g": ["endofonon"], "b": [-1.313, 0.285, -0.107, 0.641] }],
+    "f": [{ "g": ["trigorgon"], "b": [-0.811, 1.299, -0.003, 1.691] }],
+    "g": [{ "g": ["argon"], "b": [-0.962, 1.302, -0.647, 1.528] }],
+    "h": [{ "g": ["gorgonDottedLeft"], "b": [-0.963, 1.303, -0.494, 1.527] }],
+    "i": [{ "g": ["ison"], "b": [0.07, 0.874, 1.427, 1.269] }],
+    "j": [
+      { "g": ["digorgonDottedLeftBelow"], "b": [0.127, 1.568, 0.827, 1.906] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.9, 1.546, 1.525] }
+    ],
+    "k": [{ "g": ["dipli"], "b": [-0.831, 0.546, -0.453, 0.654] }],
+    "l": [
+      { "g": ["oligonKentimataAbove"], "b": [0.082, 0.904, 1.431, 1.679] },
+      { "g": ["gorgonAbove"], "b": [0.082, 0.904, 1.431, 1.679] }
+    ],
+    "m": [{ "g": ["gorthmikon"], "b": [0.046, 0.04, 0.584, 0.9] }],
+    "n": [{ "g": ["pelastikon"], "b": [0.042, 0.04, 0.574, 0.852] }],
+    "o": [{ "g": ["oligonKentimataBelow"], "b": [0.082, 0.712, 1.431, 1.152] }],
+    "q": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.821, 0.437, -0.353, 0.636]
+      }
+    ],
+    "r": [
+      {
+        "g": ["barlineShortTheseosAbove", "barlineShortTheseos"],
+        "b": [-0.148, 1.244, 0.146, 1.644]
+      }
+    ],
+    "s": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.807, 1.303, -0.494, 1.527]
+      }
+    ],
+    "t": [
+      {
+        "g": ["barlineShortSingleAbove", "barlineShortSingle"],
+        "b": [-0.017, 1.244, 0.015, 1.55]
+      }
+    ],
+    "u": [
+      {
+        "g": ["barlineDoubleAbove", "barlineDouble"],
+        "b": [-0.071, 0.658, 0.079, 1.36]
+      }
+    ],
+    "w": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.525, 0.664, -0.212, 0.889]
+      }
+    ],
+    "x": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.81, 0.592, -0.497, 0.817]
+      }
+    ],
+    "y": [
+      {
+        "g": ["barlineShortDoubleAbove", "barlineShortDouble"],
+        "b": [-0.061, 1.244, 0.064, 1.55]
+      }
+    ],
+    "z": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.948, 0.569, -0.476, 0.769]
+      }
+    ],
+    "{": [
+      {
+        "g": ["omalonConnecting", "omalon"],
+        "b": [-1.069, 0.508, 0.123, 0.795]
+      }
+    ],
+    "~": [{ "g": ["kentima"], "b": [-0.154, 1.014, 0.188, 1.286] }],
+    "": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.634, 0.481, -0.164, 0.681]
+      }
+    ],
+    "º": [
+      { "g": ["trigorgonDottedLeftBelow"], "b": [0.036, 1.553, 0.979, 1.928] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.079, 0.896, 1.542, 1.521] }
+    ],
+    "Î": [{ "g": ["oligonKentimataBelow"], "b": [0.067, 0.74, 1.417, 1.177] }],
+    "Ð": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.186, 1.292, 0.126, 1.516]
+      }
+    ],
+    "×": [{ "g": ["oligonKentimataAbove"], "b": [0.082, 0.904, 1.431, 1.4] }],
+    "ä": [
+      {
+        "g": ["digorgon", "digorgonDottedRight"],
+        "b": [-0.824, 1.437, -0.263, 1.778]
+      }
+    ],
+    "ø": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.819, 1.475, -0.506, 1.679]
+      }
+    ]
+  },
+  "ezpsaltica": {
+    "!": [{ "g": ["apostrofos"], "b": [0.083, 0.8, 0.664, 1.152] }],
+    "\"": [{ "g": ["antikenoma"], "b": [-1.333, 0.45, 0.004, 0.744] }],
+    "#": [{ "g": ["elafronApostrofos"], "b": [0.075, 0.683, 1.177, 1.16] }],
+    "$": [{ "g": ["chamili"], "b": [0.058, 0.858, 1.045, 1.475] }],
+    "%": [{ "g": ["chamiliApostrofos"], "b": [0.058, 0.562, 1.045, 1.475] }],
+    "&": [
+      { "g": ["chamiliElafronApostrofos"], "b": [0.075, 0.683, 1.177, 1.776] }
+    ],
+    "'": [{ "g": ["psifiston"], "b": [-1.417, 0.391, 0.04, 0.752] }],
+    "(": [
+      { "g": ["doubleChamiliApostrofos"], "b": [0.054, 0.562, 1.038, 1.771] }
+    ],
+    ")": [{ "g": ["yporroi"], "b": [0.071, 0.816, 0.378, 1.104] }],
+    "*": [{ "g": ["doubleChamili"], "b": [0.054, 0.858, 1.038, 1.771] }],
+    "+": [
+      { "g": ["stavrosAbove", "stavros"], "b": [0.09, 0.781, 0.436, 1.126] }
+    ],
+    ",": [
+      {
+        "g": ["martyriaNoteKe", "martyriaNoteKeLow"],
+        "b": [0.385, 0.724, 0.677, 1.027]
+      }
+    ],
+    "-": [
+      { "g": ["yporroi"], "b": [0.071, 0.816, 0.495, 1.443] },
+      { "g": ["gorgonAbove"], "b": [0.071, 0.816, 0.495, 1.443] }
+    ],
+    ".": [
+      {
+        "g": ["martyriaNoteZoLow", "martyriaNoteZo"],
+        "b": [0.35, 0.723, 0.74, 1.077]
+      }
+    ],
+    "/": [],
+    "0": [{ "g": ["ison"], "b": [0.07, 0.874, 1.427, 1.269] }],
+    "1": [{ "g": ["oligon"], "b": [0.063, 0.877, 1.4, 1.048] }],
+    "2": [{ "g": ["oligonKentimaBelow"], "b": [0.082, 0.634, 1.419, 1.048] }],
+    "3": [{ "g": ["oligonKentimaAbove"], "b": [0.082, 0.877, 1.419, 1.438] }],
+    "4": [{ "g": ["oligonYpsiliRight"], "b": [0.082, 0.877, 1.442, 1.818] }],
+    "5": [{ "g": ["oligonYpsiliLeft"], "b": [0.082, 0.877, 1.419, 1.818] }],
+    "6": [
+      { "g": ["oligonKentimaYpsiliRight"], "b": [0.082, 0.877, 1.442, 1.818] }
+    ],
+    "7": [
+      { "g": ["oligonKentimaYpsiliMiddle"], "b": [0.082, 0.877, 1.419, 1.925] }
+    ],
+    "8": [{ "g": ["oligonDoubleYpsili"], "b": [0.082, 0.877, 1.442, 1.818] }],
+    "9": [
+      {
+        "g": ["oligonKentimataDoubleYpsili"],
+        "b": [0.082, 0.877, 1.495, 1.927]
+      }
+    ],
+    ":": [{ "g": ["apli"], "b": [-0.296, 0.546, -0.159, 0.654] }],
+    ";": [{ "g": ["apli"], "b": [-0.83, 0.546, -0.693, 0.654] }],
+    "<": [{ "g": ["martyriaDots"], "b": [-0.332, 0.607, -0.131, 0.669] }],
+    "=": [
+      { "g": ["oligonKentimaBelow"], "b": [0.082, 0.635, 1.413, 1.048] },
+      { "g": ["antikenoma"], "b": [0.157, 0.304, 1.494, 0.598] }
+    ],
+    ">": [
+      {
+        "g": ["martyriaZoBelow", "martyriaZoAbove"],
+        "b": [-0.681, 0.219, 0.343, 0.508]
+      }
+    ],
+    "?": [
+      {
+        "g": ["martyriaHardChromaticPaBelow", "martyriaHardChromaticPaAbove"],
+        "b": [-0.606, 0.379, 0.112, 0.695]
+      }
+    ],
+    "@": [{ "g": ["elafron"], "b": [0.075, 0.789, 1.177, 1.16] }],
+    "A": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.618, 1.26, -0.146, 1.439]
+      }
+    ],
+    "B": [
+      {
+        "g": ["martyriaLegetosBelow", "martyriaLegetosAbove"],
+        "b": [-0.461, 0.094, 0.012, 0.519]
+      }
+    ],
+    "C": [
+      {
+        "g": ["martyriaDeltaBelow", "martyriaDeltaAbove"],
+        "b": [-0.491, 0.049, 0.03, 0.54]
+      }
+    ],
+    "D": [
+      {
+        "g": ["digorgon", "digorgonDottedRight"],
+        "b": [-0.507, 1.421, 0.054, 1.762]
+      }
+    ],
+    "E": [
+      { "g": ["petastiElafronApostrofos"], "b": [0.075, 0.788, 1.177, 1.609] }
+    ],
+    "F": [{ "g": ["trigorgon"], "b": [-0.521, 1.417, 0.285, 1.796] }],
+    "G": [{ "g": ["diargon"], "b": [-1.011, 1.229, -0.647, 1.632] }],
+    "H": [{ "g": ["gorgonDottedLeft"], "b": [-0.634, 1.402, -0.165, 1.606] }],
+    "I": [{ "g": ["oligonApostrofos"], "b": [0.082, 0.877, 1.419, 1.479] }],
+    "J": [
+      {
+        "g": ["barlineSingleAbove", "barlineSingle"],
+        "b": [0.09, 0.658, 0.123, 1.36]
+      }
+    ],
+    "K": [{ "g": ["dipli"], "b": [-0.355, 0.546, 0.006, 0.654] }],
+    "L": [
+      { "g": ["oligonKentimataAbove"], "b": [0.082, 0.877, 1.394, 1.705] },
+      { "g": ["digorgon"], "b": [0.082, 0.877, 1.394, 1.705] }
+    ],
+    "M": [
+      {
+        "g": ["martyriaHardChromaticDiBelow", "martyriaHardChromaticDiAbove"],
+        "b": [-0.438, 0.081, 0.015, 0.531]
+      }
+    ],
+    "N": [
+      {
+        "g": ["martyriaNanaBelow", "martyriaNanaAbove"],
+        "b": [-0.474, 0.105, 0.126, 0.535]
+      }
+    ],
+    "O": [{ "g": ["oligonKentimataAbove"], "b": [0.082, 0.877, 1.399, 1.352] }],
+    "P": [{ "g": ["oligonIsonKentimata"], "b": [0.058, 0.877, 1.843, 1.488] }],
+    "Q": [{ "g": ["petastiApostrofos"], "b": [0.07, 0.788, 1.172, 1.466] }],
+    "R": [
+      { "g": ["oligonChamiliKentimata"], "b": [0.055, 0.877, 1.878, 1.591] }
+    ],
+    "S": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.478, 1.402, -0.165, 1.606]
+      }
+    ],
+    "T": [
+      {
+        "g": ["oligonElafronApostrofosKentimata"],
+        "b": [0.075, 0.877, 1.967, 1.507]
+      }
+    ],
+    "U": [
+      { "g": ["oligonApostrofosKentimata"], "b": [0.077, 0.877, 1.546, 1.461] }
+    ],
+    "V": [
+      {
+        "g": ["martyriaAlphaBelow", "martyriaAlphaAbove"],
+        "b": [-0.361, 0.059, -0.083, 0.565]
+      }
+    ],
+    "W": [{ "g": ["petastiElafron"], "b": [0.075, 0.788, 1.177, 1.614] }],
+    "X": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.422, 0.376, -0.109, 0.601]
+      }
+    ],
+    "Y": [
+      { "g": ["oligonElafronKentimata"], "b": [0.075, 0.877, 1.966, 1.508] }
+    ],
+    "Z": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-1.253, 1.201, -0.782, 1.38]
+      }
+    ],
+    "[": [
+      {
+        "g": ["omalonConnecting", "omalon"],
+        "b": [-2.113, 0.433, -0.921, 0.72]
+      }
+    ],
+    "\\": [{ "g": ["vareia"], "b": [0.072, 0.583, 0.578, 1.357] }],
+    "]": [
+      {
+        "g": ["heteronConnecting", "heteron"],
+        "b": [-2.399, 0.283, -1.187, 0.608]
+      }
+    ],
+    "^": [{ "g": ["chamiliElafron"], "b": [0.073, 0.789, 1.174, 1.776] }],
+    "_": [{ "g": ["runningElafron"], "b": [0.047, 0.786, 1.693, 1.16] }],
+    "`": [{ "g": ["kentimata"], "b": [0.084, 0.82, 0.698, 1.107] }],
+    "a": [
+      { "g": ["klasmaBelow", "klasmaAbove"], "b": [-0.954, 1.2, -0.482, 1.38] }
+    ],
+    "b": [
+      {
+        "g": ["martyriaNoteVouLow", "martyriaNoteVou"],
+        "b": [0.36, 0.71, 0.582, 1.093]
+      }
+    ],
+    "c": [
+      {
+        "g": ["martyriaNoteNiLow", "martyriaNoteNi"],
+        "b": [0.395, 0.716, 0.623, 1.02]
+      }
+    ],
+    "d": [{ "g": ["digorgon"], "b": [-0.811, 1.226, -0.248, 1.593] }],
+    "e": [{ "g": ["petastiKentima"], "b": [0.07, 0.788, 1.172, 1.484] }],
+    "f": [{ "g": ["trigorgon"], "b": [-0.811, 1.226, -0.003, 1.618] }],
+    "g": [{ "g": ["argon"], "b": [-0.963, 1.229, -0.648, 1.455] }],
+    "h": [{ "g": ["gorgonDottedLeft"], "b": [-0.963, 1.23, -0.494, 1.454] }],
+    "i": [{ "g": ["petastiDoubleYpsili"], "b": [0.07, 0.788, 1.258, 1.88] }],
+    "j": [
+      {
+        "g": ["barlineShortSingleAbove", "barlineShortSingle"],
+        "b": [-0.72, 0.903, 0.09, 1.659]
+      }
+    ],
+    "k": [{ "g": ["dipli"], "b": [-0.831, 0.546, -0.453, 0.654] }],
+    "l": [
+      { "g": ["oligonKentimataAbove"], "b": [0.082, 0.877, 1.39, 1.606] },
+      { "g": ["gorgonAbove"], "b": [0.082, 0.877, 1.39, 1.606] }
+    ],
+    "m": [{ "g": ["martyriaNoteDiLow"], "b": [0.36, 0.723, 0.703, 1.105] }],
+    "n": [
+      {
+        "g": ["martyriaNoteGa", "martyriaNoteGaLow"],
+        "b": [0.36, 0.723, 0.659, 1.08]
+      }
+    ],
+    "o": [{ "g": ["oligonKentimataBelow"], "b": [0.082, 0.594, 1.419, 1.048] }],
+    "p": [{ "g": ["petastiIson"], "b": [0.052, 0.788, 1.229, 1.631] }],
+    "q": [{ "g": ["petasti"], "b": [0.076, 0.788, 1.177, 1.159] }],
+    "r": [{ "g": ["petastiYpsiliRight"], "b": [0.07, 0.788, 1.258, 1.88] }],
+    "s": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.807, 1.23, -0.494, 1.454]
+      }
+    ],
+    "t": [{ "g": ["petastiYpsiliLeft"], "b": [0.07, 0.788, 1.172, 1.877] }],
+    "u": [
+      { "g": ["petastiKentimaYpsiliMiddle"], "b": [0.07, 0.788, 1.172, 1.925] }
+    ],
+    "v": [
+      {
+        "g": ["martyriaNotePaLow", "martyriaNotePa"],
+        "b": [0.361, 0.723, 0.67, 1.025]
+      }
+    ],
+    "w": [{ "g": ["petastiOligon"], "b": [0.072, 0.788, 1.305, 1.43] }],
+    "x": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.81, 0.519, -0.497, 0.744]
+      }
+    ],
+    "y": [
+      { "g": ["petastiKentimaYpsiliRight"], "b": [0.07, 0.788, 1.258, 1.88] }
+    ],
+    "z": [{ "g": ["klasmaAbove"], "b": [-0.942, 0.603, -0.514, 0.766] }],
+    "{": [
+      {
+        "g": ["omalonConnecting", "omalon"],
+        "b": [-1.069, 0.435, 0.123, 0.722]
+      }
+    ],
+    "|": [{ "g": ["leimma1"], "b": [0.072, 0.583, 0.578, 1.357] }],
+    "}": [{ "g": ["antikenoma"], "b": [-0.794, 0.454, 0.292, 0.744] }],
+    "~": [{ "g": ["kentima"], "b": [-0.044, 0.816, 0.26, 1.102] }],
+    "": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.611, 0.508, -0.185, 0.671]
+      }
+    ],
+    "º": [{ "g": ["breath"], "b": [-0.137, 1.564, 0.001, 1.808] }],
+    "Î": [{ "g": ["oligonKentimaBelow"], "b": [0.067, 0.632, 1.404, 1.048] }],
+    "Ð": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.186, 1.218, 0.126, 1.443]
+      }
+    ],
+    "×": [{ "g": ["oligonKentimataAbove"], "b": [0.082, 0.877, 1.375, 1.317] }],
+    "ä": [
+      {
+        "g": ["digorgon", "digorgonDottedRight"],
+        "b": [-0.824, 1.364, -0.263, 1.705]
+      }
+    ],
+    "ø": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-0.819, 1.402, -0.506, 1.606]
+      }
+    ]
+  },
+  "ezspeciali": {
+    "!": [
+      {
+        "g": ["doubleChamiliElafronApostrofos"],
+        "b": [0.054, 0.454, 1.106, 1.771]
+      }
+    ],
+    "\"": [{ "g": ["koronis"], "b": [-0.617, 1.336, -0.063, 1.632] }],
+    "#": [{ "g": ["gorgonDottedLeft"], "b": [-1.351, 1.428, -0.889, 1.624] }],
+    "$": [
+      {
+        "g": ["digorgon", "digorgonDottedRight"],
+        "b": [-1.349, 1.418, -0.788, 1.759]
+      }
+    ],
+    "%": [{ "g": ["petastiDoubleChamili"], "b": [0.045, 0.652, 1.163, 1.885] }],
+    "'": [{ "g": ["koronis"], "b": [-0.879, 1.283, -0.325, 1.579] }],
+    "(": [
+      {
+        "g": ["petastiKentimataDoubleYpsili"],
+        "b": [0.07, 0.788, 1.364, 2.003]
+      }
+    ],
+    ")": [{ "g": ["doubleChamiliElafron"], "b": [0.054, 0.553, 1.106, 1.771] }],
+    "*": [{ "g": ["gorgonDottedLeft"], "b": [-0.372, 1.218, 0.097, 1.443] }],
+    "+": [
+      { "g": ["trigorgonDottedLeftBelow"], "b": [-0.546, 1.177, 0.42, 1.556] }
+    ],
+    ",": [
+      {
+        "g": ["martyriaNoteKe", "martyriaNoteKeLow"],
+        "b": [0.433, 0.178, 0.726, 0.481]
+      }
+    ],
+    "-": [
+      { "g": ["yporroi"], "b": [0.071, 0.816, 0.65, 1.534] },
+      { "g": ["digorgon"], "b": [0.071, 0.816, 0.65, 1.534] }
+    ],
+    ".": [
+      { "g": ["digorgonDottedLeftBelow"], "b": [-0.458, 1.193, 0.242, 1.534] }
+    ],
+    "0": [
+      {
+        "g": ["oligonKentimaDoubleYpsiliRight"],
+        "b": [0.082, 0.877, 1.5, 1.993]
+      }
+    ],
+    "1": [
+      {
+        "g": ["oligonKentimaDoubleYpsiliLeft"],
+        "b": [0.059, 0.877, 1.419, 1.993]
+      }
+    ],
+    "2": [{ "g": ["oligonTripleYpsili"], "b": [0.059, 0.877, 1.5, 1.818] }],
+    "3": [
+      { "g": ["oligonKentimataTripleYpsili"], "b": [0.059, 0.877, 1.5, 1.993] }
+    ],
+    "4": [
+      { "g": ["oligonKentimaTripleYpsili"], "b": [0.059, 0.877, 1.5, 1.993] }
+    ],
+    "5": [
+      { "g": ["gorgonBelow", "gorgonAbove"], "b": [0.333, 1.42, 0.633, 1.614] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.883, 1.533, 1.376] }
+    ],
+    "6": [
+      { "g": ["gorgonDottedLeft"], "b": [0.177, 1.42, 0.633, 1.614] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.883, 1.533, 1.376] }
+    ],
+    "7": [
+      { "g": ["gorgonDottedRight"], "b": [0.333, 1.42, 0.796, 1.614] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.883, 1.533, 1.376] }
+    ],
+    "8": [
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.877, 1.536, 1.759] },
+      { "g": ["digorgon"], "b": [0.077, 0.877, 1.536, 1.759] }
+    ],
+    "9": [
+      { "g": ["digorgonDottedLeftBelow"], "b": [0.127, 1.422, 0.833, 1.759] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.878, 1.533, 1.378] }
+    ],
+    ":": [{ "g": ["tripli"], "b": [-0.477, 0.546, 0.098, 0.654] }],
+    ";": [{ "g": ["tripli"], "b": [-0.987, 0.546, -0.369, 0.654] }],
+    "<": [
+      {
+        "g": ["martyriaAlphaBelow", "martyriaAlphaAbove"],
+        "b": [-0.331, 0.599, -0.054, 1.106]
+      }
+    ],
+    "=": [
+      { "g": ["oligonKentimaBelow"], "b": [0.082, 0.302, 1.497, 1.048] },
+      { "g": ["antikenoma"], "b": [0.082, 0.302, 1.497, 1.048] },
+      { "g": ["apli"], "b": [0.082, 0.302, 1.497, 1.048] }
+    ],
+    ">": [{ "g": ["trigorgon"], "b": [-0.382, 1.177, 0.425, 1.556] }],
+    "?": [
+      {
+        "g": ["martyriaHardChromaticPaBelow", "martyriaHardChromaticPaAbove"],
+        "b": [-0.606, 0.604, 0.112, 0.92]
+      }
+    ],
+    "@": [{ "g": ["tripleChamili"], "b": [0.045, 0.805, 0.935, 1.885] }],
+    "A": [{ "g": ["agogiPoliArgi"], "b": [-0.159, 0.316, 0.726, 1.448] }],
+    "B": [
+      { "g": ["trigorgonDottedLeftAbove"], "b": [-0.521, 1.417, 0.285, 1.821] }
+    ],
+    "C": [{ "g": ["digorgonDottedRight"], "b": [-0.507, 1.421, 0.207, 1.762] }],
+    "D": [
+      { "g": ["digorgonDottedLeftBelow"], "b": [-0.661, 1.421, 0.054, 1.762] }
+    ],
+    "E": [
+      { "g": ["petastiChamiliElafron"], "b": [0.046, 0.788, 1.172, 2.026] }
+    ],
+    "F": [
+      { "g": ["trigorgonDottedLeftBelow"], "b": [-0.663, 1.417, 0.285, 1.796] }
+    ],
+    "G": [{ "g": ["yporroi"], "b": [0.017, 0.817, 0.379, 1.104] }],
+    "H": [{ "g": ["gorgonDottedRight"], "b": [-0.478, 1.402, -0.011, 1.606] }],
+    "I": [
+      { "g": ["digorgonDottedRight"], "b": [0.271, 1.422, 0.983, 1.759] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.878, 1.533, 1.378] }
+    ],
+    "J": [{ "g": ["triargon"], "b": [-1.165, 1.238, -0.604, 1.605] }],
+    "K": [
+      { "g": ["digorgonDottedLeftAbove"], "b": [-0.507, 1.421, 0.054, 1.762] }
+    ],
+    "L": [{ "g": ["koronis"], "b": [-0.651, 1.615, -0.097, 1.911] }],
+    "M": [
+      {
+        "g": ["martyriaDeltaBelow", "martyriaDeltaAbove"],
+        "b": [-0.491, 0.614, 0.03, 1.104]
+      }
+    ],
+    "N": [
+      {
+        "g": ["martyriaNanaBelow", "martyriaNanaAbove"],
+        "b": [-0.474, 0.645, 0.126, 1.076]
+      }
+    ],
+    "O": [{ "g": ["apostrofosSyndesmos"], "b": [0.077, 0.43, 1.116, 1.206] }],
+    "P": [{ "g": ["isonApostrofos"], "b": [0.058, 0.429, 1.375, 1.269] }],
+    "Q": [{ "g": ["petastiChamili"], "b": [0.054, 0.788, 1.161, 1.756] }],
+    "R": [
+      {
+        "g": ["petastiChamiliElafronApostrofos"],
+        "b": [0.046, 0.788, 1.172, 2.026]
+      }
+    ],
+    "S": [{ "g": ["agogiArgi"], "b": [0.021, 0.316, 0.724, 1.35] }],
+    "T": [
+      { "g": ["trigorgon"], "b": [0.19, 1.421, 0.996, 1.796] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.883, 1.533, 1.377] }
+    ],
+    "U": [
+      { "g": ["trigorgonDottedRight"], "b": [0.19, 1.421, 1.152, 1.796] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.883, 1.533, 1.377] }
+    ],
+    "V": [
+      { "g": ["trigorgonDottedRight"], "b": [-0.521, 1.417, 0.422, 1.796] }
+    ],
+    "W": [
+      { "g": ["petastiChamiliApostrofos"], "b": [0.054, 0.788, 1.161, 1.756] }
+    ],
+    "X": [{ "g": ["agogiGorgoteri"], "b": [0.121, 0.316, 0.782, 1.35] }],
+    "Y": [
+      { "g": ["trigorgonDottedLeftBelow"], "b": [0.033, 1.421, 0.996, 1.796] },
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.883, 1.533, 1.377] }
+    ],
+    "Z": [{ "g": ["agogiPoliGorgi"], "b": [0.121, 0.316, 0.966, 1.444] }],
+    "[": [
+      { "g": ["trigorgon"], "b": [0.014, 1.181, 0.82, 1.556] },
+      { "g": ["yporroi"], "b": [0.07, 0.818, 0.376, 1.106] }
+    ],
+    "\\": [{ "g": ["oligonYporroi"], "b": [0.082, 0.877, 1.419, 1.392] }],
+    "]": [
+      { "g": ["gorgonDottedLeft"], "b": [0.029, 1.224, 0.497, 1.443] },
+      { "g": ["yporroi"], "b": [0.072, 0.818, 0.379, 1.105] }
+    ],
+    "^": [
+      {
+        "g": ["petastiDoubleChamiliApostrofos"],
+        "b": [0.045, 0.652, 1.163, 1.885]
+      }
+    ],
+    "_": [
+      { "g": ["digorgonDottedLeftBelow"], "b": [-0.047, 1.197, 0.646, 1.534] },
+      { "g": ["yporroi"], "b": [0.071, 0.822, 0.378, 1.109] }
+    ],
+    "`": [
+      {
+        "g": ["gorgonBelow", "gorgonAbove"],
+        "b": [-1.182, 1.433, -0.88, 1.628]
+      }
+    ],
+    "a": [{ "g": ["agogiArgoteri"], "b": [0.173, 0.316, 0.727, 1.444] }],
+    "b": [
+      { "g": ["trigorgonDottedLeftAbove"], "b": [-0.811, 1.226, -0.003, 1.639] }
+    ],
+    "c": [
+      { "g": ["digorgonDottedRight"], "b": [-0.811, 1.227, -0.096, 1.568] }
+    ],
+    "d": [
+      { "g": ["digorgonDottedLeftBelow"], "b": [-0.973, 1.226, -0.248, 1.593] }
+    ],
+    "e": [
+      {
+        "g": ["petastiKentimataTripleYpsili"],
+        "b": [-0.03, 0.788, 1.368, 2.003]
+      }
+    ],
+    "f": [
+      { "g": ["trigorgonDottedLeftBelow"], "b": [-0.975, 1.226, -0.003, 1.618] }
+    ],
+    "g": [
+      {
+        "g": ["digorgon", "digorgonDottedRight"],
+        "b": [-0.305, 1.193, 0.257, 1.534]
+      }
+    ],
+    "h": [{ "g": ["gorgonDottedRight"], "b": [-0.807, 1.23, -0.34, 1.454] }],
+    "i": [
+      { "g": ["oligonYpsiliLeftKentimata"], "b": [0.082, 0.877, 1.419, 1.818] }
+    ],
+    "j": [{ "g": ["apli"], "b": [0.038, 1.021, 0.174, 1.129] }],
+    "k": [
+      { "g": ["digorgonDottedLeftAbove"], "b": [-0.811, 1.226, -0.248, 1.593] }
+    ],
+    "l": [{ "g": ["koronis"], "b": [-1.003, 1.532, -0.449, 1.828] }],
+    "m": [{ "g": ["martyriaNoteDiLow"], "b": [0.36, 0.195, 0.703, 0.578] }],
+    "n": [
+      {
+        "g": ["martyriaNoteGaLow", "martyriaNoteGa"],
+        "b": [0.36, 0.195, 0.659, 0.552]
+      }
+    ],
+    "o": [
+      { "g": ["oligonKentimataBelow"], "b": [0.082, 0.635, 1.413, 1.048] },
+      { "g": ["antikenoma"], "b": [0.157, 0.304, 1.494, 0.598] },
+      { "g": ["apli"], "b": [0.694, 0.385, 0.832, 0.491] }
+    ],
+    "p": [
+      {
+        "g": ["petastiKentimaDoubleYpsiliRight"],
+        "b": [0.07, 0.788, 1.247, 1.998]
+      }
+    ],
+    "q": [
+      {
+        "g": ["petastiKentimaDoubleYpsiliLeft"],
+        "b": [0.044, 0.788, 1.176, 1.998]
+      }
+    ],
+    "r": [
+      { "g": ["petastiKentimaTripleYpsili"], "b": [-0.03, 0.788, 1.368, 2.003] }
+    ],
+    "s": [{ "g": ["agogiMetria"], "b": [0.078, 0.316, 0.577, 1.277] }],
+    "t": [
+      { "g": ["oligonYporroiKentimata"], "b": [0.077, 0.877, 1.536, 1.375] }
+    ],
+    "u": [
+      { "g": ["oligonYpsiliRightKentimata"], "b": [0.082, 0.877, 1.5, 1.818] }
+    ],
+    "v": [{ "g": ["trigorgonDottedRight"], "b": [-0.811, 1.226, 0.15, 1.618] }],
+    "w": [{ "g": ["petastiTripleYpsili"], "b": [0.044, 0.788, 1.296, 1.877] }],
+    "x": [{ "g": ["agogiGorgi"], "b": [0.121, 0.316, 0.587, 1.277] }],
+    "y": [
+      {
+        "g": ["oligonRunningElafronKentimata"],
+        "b": [-0.011, 0.877, 2.08, 1.446]
+      }
+    ],
+    "z": [{ "g": ["agogiMesi"], "b": [-0.023, 0.316, 0.674, 1.277] }],
+    "{": [
+      { "g": ["trigorgonDottedLeftBelow"], "b": [-0.146, 1.181, 0.817, 1.556] },
+      { "g": ["yporroi"], "b": [0.073, 0.818, 0.379, 1.106] }
+    ],
+    "|": [{ "g": ["trigorgon"], "b": [-1.423, 1.418, -0.617, 1.796] }],
+    "}": [
+      { "g": ["gorgonDottedRight"], "b": [0.178, 1.224, 0.646, 1.443] },
+      { "g": ["yporroi"], "b": [0.071, 0.818, 0.378, 1.105] }
+    ],
+    "~": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.611, 0.508, -0.185, 0.671]
+      }
+    ]
+  },
+  "ezspecialii": {
+    "!": [{ "g": ["isonIndicatorKeLow"], "b": [-1.303, 1.586, -0.392, 1.953] }],
+    "\"": [
+      {
+        "g": ["yfenAbove", "elafron", "digorgonDottedRight"],
+        "b": [-1.617, 1.611, -0.691, 1.916]
+      }
+    ],
+    "#": [{ "g": ["measureNumber3"], "b": [-0.736, 1.299, -0.532, 1.618] }],
+    "$": [{ "g": ["measureNumber4"], "b": [-0.746, 1.299, -0.524, 1.621] }],
+    "%": [{ "g": ["measureNumber5"], "b": [-0.739, 1.298, -0.533, 1.609] }],
+    "'": [{ "g": ["yfenBelow"], "b": [-1.75, 0.304, -0.824, 0.606] }],
+    ")": [
+      { "g": ["oligonElafronApostrofos"], "b": [0.082, 0.877, 1.419, 1.521] }
+    ],
+    "+": [{ "g": ["diesis8"], "b": [-1.121, 0.268, -0.732, 0.654] }],
+    ",": [{ "g": ["isonIndicatorKe"], "b": [-0.791, 1.619, -0.069, 1.953] }],
+    "-": [{ "g": ["petastiYporroi"], "b": [0.078, 0.789, 1.103, 1.33] }],
+    ".": [{ "g": ["isonIndicatorZo"], "b": [-0.776, 1.619, -0.069, 1.953] }],
+    "/": [
+      { "g": ["isonIndicatorUnison"], "b": [-0.805, 1.619, -0.025, 1.953] }
+    ],
+    "0": [{ "g": ["oligonElafron"], "b": [0.082, 0.877, 1.419, 1.521] }],
+    "1": [{ "g": ["isonIndicatorKeLow"], "b": [-1.01, 1.586, -0.099, 1.953] }],
+    "2": [{ "g": ["measureNumber2"], "b": [-1.208, 1.307, -1.002, 1.619] }],
+    "3": [{ "g": ["measureNumber3"], "b": [-1.224, 1.302, -1.021, 1.619] }],
+    "4": [{ "g": ["measureNumber4"], "b": [-1.223, 1.298, -1.0, 1.62] }],
+    "5": [{ "g": ["measureNumber5"], "b": [-1.207, 1.298, -1.0, 1.609] }],
+    "6": [{ "g": ["measureNumber6"], "b": [-0.745, 1.298, -0.539, 1.617] }],
+    "7": [{ "g": ["measureNumber7"], "b": [-0.743, 1.298, -0.533, 1.618] }],
+    "8": [{ "g": ["measureNumber8"], "b": [-0.729, 1.307, -0.53, 1.617] }],
+    "9": [{ "g": ["oligonIson"], "b": [0.082, 0.877, 1.419, 1.494] }],
+    ":": [{ "g": ["yfenAbove"], "b": [-2.17, 1.613, -0.971, 1.97] }],
+    ";": [{ "g": ["yfenBelow"], "b": [-2.166, 0.249, -0.966, 0.606] }],
+    "<": [{ "g": ["isonIndicatorKe"], "b": [-1.137, 1.619, -0.396, 1.953] }],
+    "=": [{ "g": ["yfesis8"], "b": [-0.832, 1.249, -0.444, 1.635] }],
+    ">": [{ "g": ["isonIndicatorZo"], "b": [-1.123, 1.619, -0.401, 1.953] }],
+    "?": [
+      { "g": ["isonIndicatorUnison"], "b": [-1.147, 1.619, -0.367, 1.953] }
+    ],
+    "@": [{ "g": ["measureNumber2"], "b": [-0.739, 1.308, -0.534, 1.619] }],
+    "A": [{ "g": ["modeAlphaCapital"], "b": [0.294, 1.021, 1.023, 1.521] }],
+    "B": [{ "g": ["isonIndicatorVou"], "b": [-1.113, 1.619, -0.392, 1.953] }],
+    "C": [{ "g": ["isonIndicatorNi"], "b": [-1.132, 1.619, -0.387, 1.953] }],
+    "D": [{ "g": ["modeGammaCapital"], "b": [0.346, 1.021, 1.057, 1.521] }],
+    "E": [{ "g": ["modeVarys"], "b": [0.334, 0.663, 1.41, 1.22] }],
+    "F": [{ "g": ["modeDeltaCapital"], "b": [0.292, 1.021, 1.003, 1.546] }],
+    "G": [{ "g": ["modeVou"], "b": [0.198, 1.021, 1.122, 1.839] }],
+    "H": [{ "g": ["modePlagal"], "b": [0.36, 0.742, 0.739, 1.629] }],
+    "I": [{ "g": ["modeOligonYpsili"], "b": [-1.119, 1.637, 0.172, 2.249] }],
+    "K": [
+      { "g": ["trigorgonDottedLeftAbove"], "b": [-0.526, 1.431, 0.287, 1.812] }
+    ],
+    "L": [
+      { "g": ["trigorgonDottedRight"], "b": [-0.526, 1.431, 0.287, 1.969] }
+    ],
+    "M": [{ "g": ["isonIndicatorDi"], "b": [-1.108, 1.619, -0.416, 1.953] }],
+    "N": [{ "g": ["isonIndicatorGa"], "b": [-1.132, 1.619, -0.416, 1.953] }],
+    "Q": [{ "g": ["modeFirst"], "b": [0.418, 0.444, 0.932, 1.911] }],
+    "R": [{ "g": ["modeFourth"], "b": [0.306, 0.48, 0.928, 1.911] }],
+    "S": [{ "g": ["modeBetaCapital"], "b": [0.294, 1.021, 0.989, 1.521] }],
+    "U": [
+      { "g": ["modeOligonKentimaAbove"], "b": [-1.135, 1.637, 0.156, 2.114] }
+    ],
+    "V": [{ "g": ["isonIndicatorPa"], "b": [-1.127, 1.619, -0.396, 1.953] }],
+    "W": [{ "g": ["modeSecond"], "b": [0.365, 1.024, 1.702, 1.629] }],
+    "Y": [{ "g": ["modeElafron"], "b": [-0.912, 1.657, 0.09, 1.994] }],
+    "\\": [
+      {
+        "g": ["heteronConnecting", "heteron"],
+        "b": [-1.909, 0.283, -0.697, 0.608]
+      }
+    ],
+    "]": [{ "g": ["oligonChamili"], "b": [0.082, 0.877, 1.419, 1.591] }],
+    "_": [
+      { "g": ["petastiRunningElafron"], "b": [-0.009, 0.782, 1.497, 1.511] }
+    ],
+    "`": [{ "g": ["isonIndicatorDiLow"], "b": [-0.986, 1.586, -0.074, 1.953] }],
+    "a": [{ "g": ["modeAlpha"], "b": [0.295, 1.021, 0.955, 1.515] }],
+    "b": [{ "g": ["isonIndicatorVou"], "b": [-0.776, 1.619, -0.04, 1.953] }],
+    "c": [{ "g": ["isonIndicatorNi"], "b": [-0.815, 1.619, -0.025, 1.953] }],
+    "d": [{ "g": ["modeGamma"], "b": [0.344, 0.808, 0.999, 1.515] }],
+    "e": [{ "g": ["modeThirdNana"], "b": [0.37, 0.75, 0.97, 1.355] }],
+    "f": [{ "g": ["modeDelta"], "b": [0.344, 1.021, 0.94, 1.515] }],
+    "g": [{ "g": ["modePa"], "b": [0.329, 1.021, 1.15, 1.859] }],
+    "h": [{ "g": ["modeWordEchos"], "b": [-0.09, 0.81, 1.504, 1.521] }],
+    "i": [{ "g": ["modeRunningElafron"], "b": [-1.467, 1.623, 0.09, 1.96] }],
+    "k": [
+      { "g": ["trigorgonDottedLeftAbove"], "b": [-0.818, 1.237, -0.003, 1.633] }
+    ],
+    "l": [
+      { "g": ["trigorgonDottedRight"], "b": [-0.818, 1.237, -0.003, 1.785] }
+    ],
+    "m": [{ "g": ["isonIndicatorDi"], "b": [-0.761, 1.619, -0.074, 1.953] }],
+    "n": [{ "g": ["isonIndicatorGa"], "b": [-0.791, 1.619, -0.05, 1.953] }],
+    "p": [{ "g": ["modeThird"], "b": [0.365, 0.659, 2.25, 1.434] }],
+    "q": [{ "g": ["modePlagalFirst"], "b": [0.486, 0.73, 0.79, 1.431] }],
+    "r": [{ "g": ["modePlagalFourth"], "b": [0.306, 0.735, 0.881, 1.401] }],
+    "s": [{ "g": ["modeBeta"], "b": [0.343, 1.021, 0.95, 1.517] }],
+    "t": [{ "g": ["modeDi"], "b": [0.198, 1.021, 1.242, 1.864] }],
+    "u": [{ "g": ["modeWordVarys"], "b": [0.331, 0.835, 1.941, 1.536] }],
+    "v": [{ "g": ["isonIndicatorPa"], "b": [-0.791, 1.619, -0.05, 1.953] }],
+    "w": [{ "g": ["modePlagalSecond"], "b": [0.372, 1.024, 1.164, 1.373] }],
+    "y": [{ "g": ["oligonKentimataBelow"], "b": [0.36, 1.023, 1.663, 1.438] }],
+    "z": [
+      {
+        "g": ["klasmaBelow", "klasmaAbove"],
+        "b": [-0.611, 0.508, -0.185, 0.671]
+      }
+    ],
+    "|": [],
+    "}": [
+      {
+        "g": ["omalonConnecting", "omalon"],
+        "b": [-1.714, 0.347, -0.522, 0.634]
+      }
+    ],
+    "~": [{ "g": ["isonIndicatorDiLow"], "b": [-1.303, 1.586, -0.392, 1.953] }]
+  }
+}
